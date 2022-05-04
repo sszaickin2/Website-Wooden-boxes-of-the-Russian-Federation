@@ -1,711 +1,1074 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <title>Главная</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- <style>body{opacity: 0;}</style> -->
+    <link rel="stylesheet" href="css/style.min.css?_v=20220504081255" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<head>
-	<title>Главная</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220504074756">
-	<link rel="shortcut icon" href="favicon.ico">
-	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+  <body>
+    <div class="wrapper">
+      <header id="header" class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <a href="index.html" class="header__image"
+              ><img src="img/logo.svg" alt=""
+            /></a>
+          </div>
 
-<body>
-	<div class="wrapper">
-		<header id="header" class="header">
-			<div class="header__container">
-				<div class="header__logo">
-					<a href="index.html" class="header__image"><img src="img/logo.svg" alt="" /></a>
-				</div>
+          <div class="header__menu menu">
+            <button type="button" class="menu__icon icon-menu">
+              <span></span>
+            </button>
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="gift.html" class="menu__link">Для подарков</a>
+                </li>
+                <li class="menu__item">
+                  <a href="products.html" class="menu__link">Для алкоголя</a>
+                </li>
+                <li class="menu__item">
+                  <a href="flowers.html" class="menu__link">Для цветов</a>
+                </li>
+                <li class="menu__item">
+                  <a href="brend.html" class="menu__link">Брендирование</a>
+                </li>
+                <li class="menu__item">
+                  <a href="contact.html" class="menu__link">Контакты</a>
+                </li>
+              </ul>
+              <a class="menu__phone" href="tel:+79191831724"
+                >+7 (919) 183-17-24
+              </a>
+            </nav>
+          </div>
+        </div>
+      </header>
 
-				<div class="header__menu menu">
-					<button type="button" class="menu__icon icon-menu"><span></span></button>
-					<nav class="menu__body">
-						<ul class="menu__list">
-							<li class="menu__item">
-								<a href="gift.html" class="menu__link">Для подарков</a>
-							</li>
-							<li class="menu__item">
-								<a href="products.html" class="menu__link">Для алкоголя</a>
-							</li>
-							<li class="menu__item">
-								<a href="flowers.html" class="menu__link">Для цветов</a>
-							</li>
-							<li class="menu__item">
-								<a href="brend.html" class="menu__link">Брендирование</a>
-							</li>
-							<li class="menu__item">
-								<a href="contact.html" class="menu__link">Контакты</a>
-							</li>
-						</ul>
-						<a class="menu__phone" href="tel:+79191831724">+7 (919) 183-17-24 </a>
-					</nav>
-				</div>
-			</div>
-		</header>
+      <main class="page">
+        <section id="scroll" class="info">
+          <!-- Оболочка слайдера -->
+          <div class="info__slider swiper">
+            <!-- Двигающееся часть слайдера -->
+            <div class="info__wrapper swiper-wrapper">
+              <!-- Слайд -->
+              <div class="info__slide swiper-slide">
+                <picture
+                  ><source srcset="img/info/slide1.webp" type="image/webp" />
+                  <img class="info__image" src="img/info/slide1.jpg" alt=""
+                /></picture>
+                <div class="info__container">
+                  <div class="info__content">
+                    <h1 class="info__heading">Маски с логотипом на заказ</h1>
+                    <button
+                      data-popup="#popup"
+                      type="button"
+                      class="info__button"
+                    >
+                      Заказать
+                      <span class="_icon-arrow-right info__arrow"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="info__slide swiper-slide">
+                <picture
+                  ><source srcset="img/info/slide1.webp" type="image/webp" />
+                  <img class="info__image" src="img/info/slide1.jpg" alt=""
+                /></picture>
+                <div class="info__container">
+                  <div class="info__content">
+                    <h1 class="info__heading">Маски с логотипом на заказ</h1>
+                    <button
+                      data-popup="#popup"
+                      type="button"
+                      class="info__button"
+                    >
+                      Заказать
+                      <span class="_icon-arrow-right info__arrow"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="info__slide swiper-slide">
+                <picture
+                  ><source srcset="img/info/slide1.webp" type="image/webp" />
+                  <img class="info__image" src="img/info/slide1.jpg" alt=""
+                /></picture>
+                <div class="info__container">
+                  <div class="info__content">
+                    <h1 class="info__heading">Маски с логотипом на заказ</h1>
+                    <button
+                      data-popup="#popup"
+                      type="button"
+                      class="info__button"
+                    >
+                      Заказать
+                      <span class="_icon-arrow-right info__arrow"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Если нужна пагинация -->
+            <div class="info__container">
+              <div class="pagination">
+                <div class="info__pagination"></div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-		<main class="page">
-			<section id="scroll" class="info">
-				<!-- Оболочка слайдера -->
-				<div class="info__slider swiper">
-					<!-- Двигающееся часть слайдера -->
-					<div class="info__wrapper swiper-wrapper">
-						<!-- Слайд -->
-						<div class="info__slide swiper-slide">
-							<picture><source srcset="img/info/slide1.webp" type="image/webp"><img class="info__image" src="img/info/slide1.jpg" alt="" /></picture>
-							<div class="info__container">
-								<div class="info__content">
-									<h1 class="info__heading">Маски с логотипом на заказ</h1>
-									<button data-popup="#popup" type="button" class="info__button">
-										Заказать <span class="_icon-arrow-right info__arrow"></span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="info__slide swiper-slide">
-							<picture><source srcset="img/info/slide1.webp" type="image/webp"><img class="info__image" src="img/info/slide1.jpg" alt="" /></picture>
-							<div class="info__container">
-								<div class="info__content">
-									<h1 class="info__heading">Маски с логотипом на заказ</h1>
-									<button data-popup="#popup" type="button" class="info__button">
-										Заказать <span class="_icon-arrow-right info__arrow"></span>
-									</button>
-								</div>
-							</div>
-						</div>
-						<div class="info__slide swiper-slide">
-							<picture><source srcset="img/info/slide1.webp" type="image/webp"><img class="info__image" src="img/info/slide1.jpg" alt="" /></picture>
-							<div class="info__container">
-								<div class="info__content">
-									<h1 class="info__heading">Маски с логотипом на заказ</h1>
-									<button data-popup="#popup" type="button" class="info__button">
-										Заказать <span class="_icon-arrow-right info__arrow"></span>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Если нужна пагинация -->
-					<div class="info__container">
-						<div class="pagination">
-							<div class="info__pagination"></div>
-						</div>
-					</div>
-				</div>
-			</section>
+        <section class="content">
+          <div class="content__container">
+            <div data-tabs data-tabs-animate="1000" class="content__tabs tabs">
+              <div data-tabs-body class="tabs__content">
+                <div class="tabs__body body">
+                  <div class="body__styles">
+                    <div class="body__information">
+                      <h2 class="information__heading">Наши коробки</h2>
+                      <h4 class="information__title">
+                        Заголовок о товаре/названии товара
+                      </h4>
+                      <div class="information__text">
+                        <span>Описание товара</span>
+                        <span
+                          >ed do eiusmod tempor incididunt ut labore et dolore
+                          magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud</span
+                        >
+                        <span
+                          >Сonsectetur adipiscing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostruded do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostrud</span
+                        >
+                      </div>
+                      <div class="link">
+                        <a href="gift.html" class="link__item"
+                          >ПОДРОБНЕЕ <span class="_icon-arrow-right"></span
+                        ></a>
+                      </div>
+                      <button
+                        data-popup="#popup"
+                        type="button"
+                        class="information__button"
+                      >
+                        Заказать <span class="_icon-arrow-right"></span>
+                      </button>
+                    </div>
 
-			<section class="content">
-				<div class="content__container">
-					<div data-tabs data-tabs-animate="1000" class="content__tabs tabs">
+                    <div class="slide">
+                      <div class="slide__button">
+                        <button
+                          type="button"
+                          class="slider-errow korusel-button-prev"
+                        >
+                          <span
+                            class="_icon-arrowSlider-left slide__arrow"
+                          ></span>
+                        </button>
+                      </div>
+                      <div class="body__slider">
+                        <!-- Оболочка слайдера -->
+                        <div class="korusel__slider slider">
+                          <!-- Двигающееся часть слайдера -->
+                          <div class="korusel__wrapper swiper-wrapper">
+                            <!-- Слайд -->
+                            <div class="korusel__slide swiper-slide">
+                              <picture
+                                ><source
+                                  srcset="img/content/slider1.webp"
+                                  type="image/webp" />
+                                <img src="img/content/slider1.jpg" alt=""
+                              /></picture>
+                            </div>
+                            <div class="korusel__slide swiper-slide">
+                              <picture
+                                ><source
+                                  srcset="img/content/slider2.webp"
+                                  type="image/webp" />
+                                <img src="img/content/slider2.jpg" alt=""
+                              /></picture>
+                            </div>
+                            <div class="korusel__slide swiper-slide">
+                              <picture
+                                ><source
+                                  srcset="img/content/slider2.webp"
+                                  type="image/webp" />
+                                <img src="img/content/slider2.jpg" alt=""
+                              /></picture>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slide__button">
+                        <button
+                          type="button"
+                          class="slider-errow korusel-button-next"
+                        >
+                          <span
+                            class="_icon-arrowSlider-right slide__arrow"
+                          ></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-						<div data-tabs-body class="tabs__content">
+                <div class="tabs__body body">
+                  <div class="body__styles">
+                    <div class="body__information">
+                      <h2 class="information__heading">Наши коробки</h2>
+                      <h4 class="information__title">
+                        Заголовок о товаре/названии товара
+                      </h4>
+                      <div class="information__text">
+                        <span>Описание товара</span>
+                        <span
+                          >ed do eiusmod tempor incididunt ut labore et dolore
+                          magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud</span
+                        >
+                        <span
+                          >Сonsectetur adipiscing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostruded do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostrud</span
+                        >
+                      </div>
+                      <div class="link">
+                        <a href="gift.html" class="link__item"
+                          >ПОДРОБНЕЕ <span class="_icon-arrow-right"></span
+                        ></a>
+                      </div>
+                      <button
+                        data-popup="#popup"
+                        type="button"
+                        class="information__button"
+                      >
+                        Заказать <span class="_icon-arrow-right"></span>
+                      </button>
+                    </div>
 
-							<div class="tabs__body body">
-								<div class="body__styles">
-									<div class="body__information">
-										<h2 class="information__heading">Наши коробки</h2>
-										<h4 class="information__title">Заголовок о товаре/названии товара</h4>
-										<div class="information__text">
-											<span>Описание товара</span>
-											<span>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-												quis nostrud</span>
-											<span>Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-												aliqua. Ut enim ad minim veniam, quis nostruded do eiusmod tempor incididunt ut labore et
-												dolore
-												magna aliqua. Ut enim ad minim veniam, quis nostrud</span>
-										</div>
-										<div class="link">
-											<a href="gift.html" class="link__item">ПОДРОБНЕЕ <span class="_icon-arrow-right"></span></a>
-										</div>
-										<button data-popup="#popup" type="button" class="information__button">Заказать <span class="_icon-arrow-right"></span></button>
-									</div>
+                    <div class="slide">
+                      <div class="slide__button">
+                        <button
+                          type="button"
+                          class="slider-errow box-button-prev"
+                        >
+                          <span
+                            class="_icon-arrowSlider-left slide__arrow"
+                          ></span>
+                        </button>
+                      </div>
+                      <div class="body__slider">
+                        <!-- Оболочка слайдера -->
+                        <div class="korusel__slider slider-box">
+                          <!-- Двигающееся часть слайдера -->
+                          <div class="korusel__wrapper swiper-wrapper">
+                            <!-- Слайд -->
+                            <div class="korusel__slide swiper-slide">
+                              <picture
+                                ><source
+                                  srcset="img/content/slider1.webp"
+                                  type="image/webp" />
+                                <img src="img/content/slider1.jpg" alt=""
+                              /></picture>
+                            </div>
+                            <div class="korusel__slide swiper-slide">
+                              <picture
+                                ><source
+                                  srcset="img/content/slider2.webp"
+                                  type="image/webp" />
+                                <img src="img/content/slider2.jpg" alt=""
+                              /></picture>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slide__button">
+                        <button
+                          type="button"
+                          class="slider-errow box-button-next"
+                        >
+                          <span
+                            class="_icon-arrowSlider-right slide__arrow"
+                          ></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="tabs__body body">
+                  <div class="body__styles">
+                    <div class="body__information">
+                      <h2 class="information__heading">Наши коробки</h2>
+                      <h4 class="information__title">
+                        Заголовок о товаре/названии товара
+                      </h4>
+                      <div class="information__text">
+                        <span>Описание товара</span>
+                        <span
+                          >ed do eiusmod tempor incididunt ut labore et dolore
+                          magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud</span
+                        >
+                        <span
+                          >Сonsectetur adipiscing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostruded do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostrud</span
+                        >
+                      </div>
+                      <div class="link">
+                        <a href="gift.html" class="link__item"
+                          >ПОДРОБНЕЕ <span class="_icon-arrow-right"></span
+                        ></a>
+                      </div>
+                      <button
+                        data-popup="#popup"
+                        type="button"
+                        class="information__button"
+                      >
+                        Заказать <span class="_icon-arrow-right"></span>
+                      </button>
+                    </div>
 
-									<div class="slide">
-										<div class="slide__button"><button type="button" class="slider-errow korusel-button-prev"><span class="_icon-arrowSlider-left slide__arrow"></span></button></div>
-										<div class="body__slider">
-											<!-- Оболочка слайдера -->
-											<div class="korusel__slider slider">
-												<!-- Двигающееся часть слайдера -->
-												<div class="korusel__wrapper swiper-wrapper">
-													<!-- Слайд -->
-													<div class="korusel__slide swiper-slide">
-														<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt=""></picture>
-													</div>
-													<div class="korusel__slide swiper-slide">
-														<picture><source srcset="img/content/slider2.webp" type="image/webp"><img src="img/content/slider2.jpg" alt=""></picture>
-													</div>
-													<div class="korusel__slide swiper-slide">
-														<picture><source srcset="img/content/slider2.webp" type="image/webp"><img src="img/content/slider2.jpg" alt=""></picture>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="slide__button"><button type="button" class="slider-errow korusel-button-next"><span class="_icon-arrowSlider-right slide__arrow"></span></button></div>
-									</div>
-								</div>
-							</div>
+                    <div class="slide">
+                      <div class="slide__button">
+                        <button type="button" class="slider-errow belts-prev">
+                          <span
+                            class="_icon-arrowSlider-left slide__arrow"
+                          ></span>
+                        </button>
+                      </div>
+                      <div class="body__slider korusel">
+                        <!-- Оболочка слайдера -->
+                        <div class="korusel__slider belts">
+                          <!-- Двигающееся часть слайдера -->
+                          <div class="korusel__wrapper swiper-wrapper">
+                            <!-- Слайд -->
+                            <div class="korusel__slide swiper-slide">
+                              <picture
+                                ><source
+                                  srcset="img/content/slider1.webp"
+                                  type="image/webp" />
+                                <img src="img/content/slider1.jpg" alt=""
+                              /></picture>
+                            </div>
+                            <div class="korusel__slide swiper-slide">
+                              <picture
+                                ><source
+                                  srcset="img/content/slider2.webp"
+                                  type="image/webp" />
+                                <img src="img/content/slider2.jpg" alt=""
+                              /></picture>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slide__button">
+                        <button type="button" class="slider-errow belts-next">
+                          <span
+                            class="_icon-arrowSlider-right slide__arrow"
+                          ></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
-							<div class="tabs__body body">
-								<div class="body__styles">
-									<div class="body__information">
-										<h2 class="information__heading">Наши коробки</h2>
-										<h4 class="information__title">Заголовок о товаре/названии товара</h4>
-										<div class="information__text">
-											<span>Описание товара</span>
-											<span>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-												quis nostrud</span>
-											<span>Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-												aliqua. Ut enim ad minim veniam, quis nostruded do eiusmod tempor incididunt ut labore et
-												dolore
-												magna aliqua. Ut enim ad minim veniam, quis nostrud</span>
-										</div>
-										<div class="link">
-											<a href="gift.html" class="link__item">ПОДРОБНЕЕ <span class="_icon-arrow-right"></span></a>
-										</div>
-										<button data-popup="#popup" type="button" class="information__button">Заказать <span class="_icon-arrow-right"></span></button>
-									</div>
+                <div class="tabs__body body">
+                  <div class="body__styles">
+                    <div class="body__information">
+                      <h2 class="information__heading">Наши коробки</h2>
+                      <h4 class="information__title">
+                        Заголовок о товаре/названии товара
+                      </h4>
+                      <div class="information__text">
+                        <span>Описание товара</span>
+                        <span
+                          >ed do eiusmod tempor incididunt ut labore et dolore
+                          magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud</span
+                        >
+                        <span
+                          >Сonsectetur adipiscing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostruded do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostrud</span
+                        >
+                      </div>
+                      <div class="link">
+                        <a href="products.html" class="link__item"
+                          >ПОДРОБНЕЕ <span class="_icon-arrow-right"></span
+                        ></a>
+                      </div>
+                      <button
+                        data-popup="#popup"
+                        type="button"
+                        class="information__button"
+                      >
+                        Заказать <span class="_icon-arrow-right"></span>
+                      </button>
+                    </div>
 
+                    <div class="slide">
+                      <div class="slide__button">
+                        <button type="button" class="slider-errow bottle-prev">
+                          <span
+                            class="_icon-arrowSlider-left slide__arrow"
+                          ></span>
+                        </button>
+                      </div>
+                      <div class="body__slider korusel">
+                        <!-- Оболочка слайдера -->
+                        <div class="korusel__slider bottle">
+                          <!-- Двигающееся часть слайдера -->
+                          <div class="korusel__wrapper swiper-wrapper">
+                            <!-- Слайд -->
+                            <div class="korusel__slide swiper-slide">
+                              <picture
+                                ><source
+                                  srcset="img/content/slider1.webp"
+                                  type="image/webp" />
+                                <img src="img/content/slider1.jpg" alt=""
+                              /></picture>
+                            </div>
+                            <div class="korusel__slide swiper-slide">
+                              <picture
+                                ><source
+                                  srcset="img/content/slider2.webp"
+                                  type="image/webp" />
+                                <img src="img/content/slider2.jpg" alt=""
+                              /></picture>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slide__button">
+                        <button type="button" class="slider-errow bottle-next">
+                          <span
+                            class="_icon-arrowSlider-right slide__arrow"
+                          ></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
+                <div class="tabs__body body">
+                  <div class="body__styles">
+                    <div class="body__information">
+                      <h2 class="information__heading">Наши коробки</h2>
+                      <h4 class="information__title">
+                        Заголовок о товаре/названии товара
+                      </h4>
+                      <div class="information__text">
+                        <span>Описание товара</span>
+                        <span
+                          >ed do eiusmod tempor incididunt ut labore et dolore
+                          magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud</span
+                        >
+                        <span
+                          >Сonsectetur adipiscing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostruded do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostrud</span
+                        >
+                      </div>
+                      <div class="link">
+                        <a href="flowers.html" class="link__item"
+                          >ПОДРОБНЕЕ <span class="_icon-arrow-right"></span
+                        ></a>
+                      </div>
+                      <button
+                        data-popup="#popup"
+                        type="button"
+                        class="information__button"
+                      >
+                        Заказать <span class="_icon-arrow-right"></span>
+                      </button>
+                    </div>
 
-									<div class="slide">
-										<div class="slide__button"><button type="button" class="slider-errow box-button-prev"><span class="_icon-arrowSlider-left slide__arrow"></span></button></div>
-										<div class="body__slider">
-											<!-- Оболочка слайдера -->
-											<div class="korusel__slider slider-box">
-												<!-- Двигающееся часть слайдера -->
-												<div class="korusel__wrapper swiper-wrapper">
-													<!-- Слайд -->
-													<div class="korusel__slide swiper-slide">
-														<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt=""></picture>
-													</div>
-													<div class="korusel__slide swiper-slide">
-														<picture><source srcset="img/content/slider2.webp" type="image/webp"><img src="img/content/slider2.jpg" alt=""></picture>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="slide__button"><button type="button" class="slider-errow box-button-next"><span class="_icon-arrowSlider-right slide__arrow"></span></button></div>
-									</div>
-								</div>
-							</div>
+                    <div class="slide">
+                      <div class="slide__button">
+                        <button type="button" class="slider-errow flowers-prev">
+                          <span
+                            class="_icon-arrowSlider-left slide__arrow"
+                          ></span>
+                        </button>
+                      </div>
+                      <div class="body__slider korusel">
+                        <!-- Оболочка слайдера -->
+                        <div class="korusel__slider flowers">
+                          <!-- Двигающееся часть слайдера -->
+                          <div class="korusel__wrapper swiper-wrapper">
+                            <!-- Слайд -->
+                            <div class="korusel__slide swiper-slide">
+                              <picture
+                                ><source
+                                  srcset="img/content/slider1.webp"
+                                  type="image/webp" />
+                                <img src="img/content/slider1.jpg" alt=""
+                              /></picture>
+                            </div>
+                            <div class="korusel__slide swiper-slide">
+                              <picture
+                                ><source
+                                  srcset="img/content/slider2.webp"
+                                  type="image/webp" />
+                                <img src="img/content/slider2.jpg" alt=""
+                              /></picture>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="slide__button">
+                        <button type="button" class="slider-errow flowers-next">
+                          <span
+                            class="_icon-arrowSlider-right slide__arrow"
+                          ></span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-							<div class="tabs__body body">
-								<div class="body__styles">
-									<div class="body__information">
-										<h2 class="information__heading">Наши коробки</h2>
-										<h4 class="information__title">Заголовок о товаре/названии товара</h4>
-										<div class="information__text">
-											<span>Описание товара</span>
-											<span>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-												quis nostrud</span>
-											<span>Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-												aliqua. Ut enim ad minim veniam, quis nostruded do eiusmod tempor incididunt ut labore et
-												dolore
-												magna aliqua. Ut enim ad minim veniam, quis nostrud</span>
-										</div>
-										<div class="link">
-											<a href="gift.html" class="link__item">ПОДРОБНЕЕ <span class="_icon-arrow-right"></span></a>
-										</div>
-										<button data-popup="#popup" type="button" class="information__button">Заказать <span class="_icon-arrow-right"></span></button>
-									</div>
+              <nav data-tabs-titles class="tabs__navigation">
+                <button type="button" class="tabs__title _tab-active">
+                  Подарочные коробки
+                </button>
+                <button type="button" class="tabs__title">
+                  Коробки-шкатулки
+                </button>
+                <button type="button" class="tabs__title">
+                  Коробки для ремней
+                </button>
+                <button type="button" class="tabs__title">
+                  Коробки для бутылок
+                </button>
+                <button type="button" class="tabs__title">
+                  Коробки для цветов
+                </button>
+              </nav>
+            </div>
+          </div>
+        </section>
+        <section class="form">
+          <div class="form__container">
+            <div class="form__info">
+              <h2 class="form__heading">Доставить образцы сегодня!</h2>
+              <span class="form__title"
+                >Бесплатная доставка образцов курьером</span
+              >
+              <span class="form__text"
+                >Вы сможете оценить качество производимой нами продукции
+              </span>
+            </div>
+            <form
+              data-ajax
+              method="POST"
+              action="sendmail.php"
+              class="form__content"
+            >
+              <input
+                class="form__input"
+                type="text"
+                name=""
+                id=""
+                placeholder="Имя"
+              />
+              <input
+                id="tel"
+                data-required
+                data-error
+                class="form__input form-phone"
+                type="tel"
+                placeholder="Телефон"
+              />
+              <input class="form__input" type="email" placeholder="Email" />
+              <div class="form__police police">
+                <span class="police__text"
+                  >Нажимая на кнопку «Отправить», вы соглашаетесь с
+                  <a href="police.html"
+                    >Политикой обработки персональных данных</a
+                  >
+                </span>
 
+                <button type="submit" class="police__button">
+                  Отправить <span class="_icon-arrow-right"></span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
 
-									<div class="slide">
-										<div class="slide__button"><button type="button" class="slider-errow belts-prev"><span class="_icon-arrowSlider-left slide__arrow"></span></button></div>
-										<div class="body__slider korusel">
-											<!-- Оболочка слайдера -->
-											<div class="korusel__slider belts">
-												<!-- Двигающееся часть слайдера -->
-												<div class="korusel__wrapper swiper-wrapper">
-													<!-- Слайд -->
-													<div class="korusel__slide swiper-slide">
-														<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt=""></picture>
-													</div>
-													<div class="korusel__slide swiper-slide">
-														<picture><source srcset="img/content/slider2.webp" type="image/webp"><img src="img/content/slider2.jpg" alt=""></picture>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="slide__button"><button type="button" class="slider-errow belts-next"><span class="_icon-arrowSlider-right slide__arrow"></span></button></div>
-									</div>
-								</div>
-							</div>
+        <section class="stats">
+          <div class="stats__container">
+            <h2 class="stats__heading">Лучшие маски</h2>
+            <div class="stats__content">
+              <div class="stats__info info-stats">
+                <div class="info-stats__heading">Подзаголовок</div>
+                <div class="info-stats__text">
+                  <span>
+                    Описание преимуществ, чем мы лучше других ed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud
+                  </span>
+                  <span>
+                    Сonsectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostruded do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud
+                  </span>
+                  <span>
+                    Сonsectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad
+                    minim veniam, quis nostruded do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud
+                  </span>
+                </div>
+                <button
+                  data-popup="#popup"
+                  type="button"
+                  class="info-stats__button"
+                >
+                  Заказать <span class="_icon-arrow-right"></span>
+                </button>
+              </div>
+              <div class="stats__video">
+                <picture
+                  ><source srcset="img/video/video1.webp" type="image/webp" />
+                  <img src="img/video/video1.jpg" alt=""
+                /></picture>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="video">
+          <div class="video__container">
+            <h2 class="video__heading">Производство</h2>
 
-							<div class="tabs__body body">
-								<div class="body__styles">
-									<div class="body__information">
-										<h2 class="information__heading">Наши коробки</h2>
-										<h4 class="information__title">Заголовок о товаре/названии товара</h4>
-										<div class="information__text">
-											<span>Описание товара</span>
-											<span>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-												quis nostrud</span>
-											<span>Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-												aliqua. Ut enim ad minim veniam, quis nostruded do eiusmod tempor incididunt ut labore et
-												dolore
-												magna aliqua. Ut enim ad minim veniam, quis nostrud</span>
-										</div>
-										<div class="link">
-											<a href="products.html" class="link__item">ПОДРОБНЕЕ <span class="_icon-arrow-right"></span></a>
-										</div>
-										<button data-popup="#popup" type="button" class="information__button">Заказать <span class="_icon-arrow-right"></span></button>
-									</div>
+            <div class="video-content">
+              <picture
+                ><source
+                  srcset="img/videoBlock/video1.webp"
+                  type="image/webp" />
+                <img src="img/videoBlock/video1.jpg" alt=""
+              /></picture>
+            </div>
 
+            <div class="video-info">
+              <div class="video-info__heading">
+                Заголовок ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do
+              </div>
+              <div class="video-info__text">
+                <span>
+                  Описание ed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud
+                </span>
+                <span>
+                  Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostruded do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                  Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostruded do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                </span>
+              </div>
+            </div>
 
-									<div class="slide">
-										<div class="slide__button"><button type="button" class="slider-errow bottle-prev"><span class="_icon-arrowSlider-left slide__arrow"></span></button></div>
-										<div class="body__slider korusel">
-											<!-- Оболочка слайдера -->
-											<div class="korusel__slider bottle">
-												<!-- Двигающееся часть слайдера -->
-												<div class="korusel__wrapper swiper-wrapper">
-													<!-- Слайд -->
-													<div class="korusel__slide swiper-slide">
-														<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt=""></picture>
-													</div>
-													<div class="korusel__slide swiper-slide">
-														<picture><source srcset="img/content/slider2.webp" type="image/webp"><img src="img/content/slider2.jpg" alt=""></picture>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="slide__button"><button type="button" class="slider-errow bottle-next"><span class="_icon-arrowSlider-right slide__arrow"></span></button></div>
-									</div>
-								</div>
-							</div>
+            <div class="advantages__content content-advantages">
+              <div class="content-advantages__item item-advantages">
+                <div class="item-advantages__heading">Преимущество 1</div>
+                <span class="item-advantages__text"
+                  >Описание ed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud</span
+                >
+              </div>
 
-							<div class="tabs__body body">
-								<div class="body__styles">
-									<div class="body__information">
-										<h2 class="information__heading">Наши коробки</h2>
-										<h4 class="information__title">Заголовок о товаре/названии товара</h4>
-										<div class="information__text">
-											<span>Описание товара</span>
-											<span>ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-												quis nostrud</span>
-											<span>Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-												aliqua. Ut enim ad minim veniam, quis nostruded do eiusmod tempor incididunt ut labore et
-												dolore
-												magna aliqua. Ut enim ad minim veniam, quis nostrud</span>
-										</div>
-										<div class="link">
-											<a href="flowers.html" class="link__item">ПОДРОБНЕЕ <span class="_icon-arrow-right"></span></a>
-										</div>
-										<button data-popup="#popup" type="button" class="information__button">Заказать <span class="_icon-arrow-right"></span></button>
-									</div>
+              <div class="content-advantages__item item-advantages">
+                <div class="item-advantages__heading">Преимущество 2</div>
+                <span class="item-advantages__text"
+                  >Описание ed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud</span
+                >
+              </div>
 
+              <div class="content-advantages__item item-advantages">
+                <div class="item-advantages__heading">Преимущество 3</div>
+                <span class="item-advantages__text"
+                  >Описание ed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud</span
+                >
+              </div>
+            </div>
+          </div>
+        </section>
 
-									<div class="slide">
-										<div class="slide__button"><button type="button" class="slider-errow flowers-prev"><span class="_icon-arrowSlider-left slide__arrow"></span></button></div>
-										<div class="body__slider korusel">
-											<!-- Оболочка слайдера -->
-											<div class="korusel__slider flowers">
-												<!-- Двигающееся часть слайдера -->
-												<div class="korusel__wrapper swiper-wrapper">
-													<!-- Слайд -->
-													<div class="korusel__slide swiper-slide">
-														<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt=""></picture>
-													</div>
-													<div class="korusel__slide swiper-slide">
-														<picture><source srcset="img/content/slider2.webp" type="image/webp"><img src="img/content/slider2.jpg" alt=""></picture>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="slide__button"><button type="button" class="slider-errow flowers-next"><span class="_icon-arrowSlider-right slide__arrow"></span></button></div>
-									</div>
-								</div>
-							</div>
+        <section class="order">
+          <div class="order__container">
+            <h2 class="order__heading">Как заказать</h2>
+            <div class="order__content">
+              <div class="order__info">
+                <div class="order__item item">
+                  <div class="item__number">01</div>
+                  <h4 class="item__heading">Заголовок</h4>
+                  <span class="item__text"
+                    >Описание. do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud</span
+                  >
+                </div>
 
-						</div>
+                <div class="order__item item">
+                  <div class="item__number">02</div>
+                  <h4 class="item__heading">Заголовок</h4>
+                  <span class="item__text"
+                    >Описание. do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud</span
+                  >
+                </div>
 
-						<nav data-tabs-titles class="tabs__navigation">
-							<button type="button" class="tabs__title _tab-active">Подарочные коробки</button>
-							<button type="button" class="tabs__title">Коробки-шкатулки</button>
-							<button type="button" class="tabs__title">Коробки для ремней</button>
-							<button type="button" class="tabs__title">Коробки для бутылок</button>
-							<button type="button" class="tabs__title">Коробки для цветов</button>
-						</nav>
-					</div>
-				</div>
-			</section>
-			<section class="form">
-				<div class="form__container">
-					<div class="form__info">
-						<h2 class="form__heading">Доставить образцы сегодня!</h2>
-						<span class="form__title">Бесплатная доставка образцов курьером</span>
-						<span class="form__text">Вы сможете оценить качество производимой нами продукции
-						</span>
-					</div>
-					<form data-ajax method="POST" action="sendmail.php" class="form__content">
-						<input class="form__input" type="text" name="" id="" placeholder="Имя" />
-						<input id="tel" data-required data-error class="form__input form-phone" type="tel" placeholder="Телефон" />
-						<input class="form__input" type="email" placeholder="Email" />
-						<div class="form__police police">
-							<span class="police__text">Нажимая на кнопку «Отправить», вы соглашаетесь с
-								<a href="police.html">Политикой обработки персональных данных</a>
-							</span>
+                <div class="order__item item">
+                  <div class="item__number">03</div>
+                  <h4 class="item__heading">Заголовок</h4>
+                  <span class="item__text"
+                    >Описание. do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud</span
+                  >
+                </div>
 
-							<button type="submit" class="police__button">
-								Отправить <span class="_icon-arrow-right"></span>
-							</button>
-						</div>
-					</form>
-				</div>
-			</section>
+                <div class="order__item item">
+                  <div class="item__number">04</div>
+                  <h4 class="item__heading">Заголовок</h4>
+                  <span class="item__text"
+                    >Описание. do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud</span
+                  >
+                </div>
+              </div>
+            </div>
+            <button data-popup="#popup" type="button" class="order__button">
+              Заказать <span class="_icon-arrow-right"></span>
+            </button>
+          </div>
+        </section>
+        <section class="price">
+          <div class="price__container">
+            <h2 class="price__heading">Что включает в себя цена</h2>
+            <div class="price__info">
+              <span>
+                Описание ed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud
+              </span>
+              <span>
+                Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostruded do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud Сonsectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostruded do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud
+              </span>
+            </div>
+            <div class="price__list">
+              <div class="price__item item">
+                <div class="item__head">Преимущество 1</div>
+                <span class="item__info">
+                  Описание ed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud
+                </span>
+              </div>
+              <div class="price__item item">
+                <div class="item__head">Преимущество 2</div>
+                <span class="item__info">
+                  Описание ed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud
+                </span>
+              </div>
+              <div class="price__item item">
+                <div class="item__head">Преимущество 3</div>
+                <span class="item__info">
+                  Описание ed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua. Ut enim ad minim veniam, quis nostrud
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="question">
+          <div class="question__container">
+            <h2 class="question__heading">Вопрос / ответ</h2>
+            <div data-spollers class="question__spollers spollers">
+              <div class="spollers__item">
+                <button type="button" data-spoller class="spollers__title">
+                  Сколько времени займет изготовление и доставка заказа?
+                  <span class="_icon-arrowSlider-right spollers__arrow"></span>
+                </button>
+                <div class="spollers__body">
+                  Время изготовления заказа зависит от тиража, сложности печати,
+                  наличия необходимых вещей на складе, загруженности
+                  производства и т.д. Но мы всегда стараемся подстроиться под
+                  сроки заказчика и выполнить заказ точно к необходимой дате.
+                </div>
+              </div>
+              <div class="spollers__item">
+                <button type="button" data-spoller class="spollers__title">
+                  Сколько времени займет доставка заказа?
+                  <span class="_icon-arrowSlider-right spollers__arrow"></span>
+                </button>
+                <div class="spollers__body">
+                  Время изготовления заказа зависит от тиража, сложности печати,
+                  наличия необходимых вещей на складе, загруженности
+                  производства и т.д. Но мы всегда стараемся подстроиться под
+                  сроки заказчика и выполнить заказ точно к необходимой дате.
+                </div>
+              </div>
+              <div class="spollers__item">
+                <button type="button" data-spoller class="spollers__title">
+                  Сколько времени займет изготовление и доставка заказа?
+                  <span class="_icon-arrowSlider-right spollers__arrow"></span>
+                </button>
+                <div class="spollers__body">
+                  Время изготовления заказа зависит от тиража, сложности печати,
+                  наличия необходимых вещей на складе, загруженности
+                  производства и т.д. Но мы всегда стараемся подстроиться под
+                  сроки заказчика и выполнить заказ точно к необходимой дате.
+                </div>
+              </div>
+              <div class="spollers__item item__line">
+                <button type="button" data-spoller class="spollers__title">
+                  Сколько времени займет доставка заказа?
+                  <span class="_icon-arrowSlider-right spollers__arrow"></span>
+                </button>
+                <div class="spollers__body">
+                  Время изготовления заказа зависит от тиража, сложности печати,
+                  наличия необходимых вещей на складе, загруженности
+                  производства и т.д. Но мы всегда стараемся подстроиться под
+                  сроки заказчика и выполнить заказ точно к необходимой дате.
+                </div>
+              </div>
+            </div>
+            <button data-popup="#popup" type="button" class="question__button">
+              Заказать <span class="_icon-arrow-right"></span>
+            </button>
+          </div>
+        </section>
 
-			<section class="stats">
-				<div class="stats__container">
-					<h2 class="stats__heading">Лучшие маски</h2>
-					<div class="stats__content">
-						<div class="stats__info info-stats">
-							<div class="info-stats__heading">Подзаголовок</div>
-							<div class="info-stats__text">
-								<span>
-									Описание преимуществ, чем мы лучше других
-									ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-									nostrud
-								</span>
-								<span>
-									Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-									enim ad minim veniam,
-									quis nostruded do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud
-								</span>
-								<span>
-									Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-									enim ad minim veniam,
-									quis nostruded do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-									quis nostrud
-								</span>
-							</div>
-							<button data-popup="#popup" type="button" class="info-stats__button">Заказать <span class="_icon-arrow-right"></span></button>
-						</div>
-						<div class="stats__video">
-							<picture><source srcset="img/video/video1.webp" type="image/webp"><img src="img/video/video1.jpg" alt=""></picture>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="video">
-				<div class="video__container">
-					<h2 class="video__heading">Производство</h2>
+        <section class="form">
+          <div class="form__container">
+            <div class="form__info">
+              <h2 class="form__heading">Доставить образцы сегодня!</h2>
+              <span class="form__title"
+                >Бесплатная доставка образцов курьером</span
+              >
+              <span class="form__text"
+                >Вы сможете оценить качество производимой нами продукции
+              </span>
+            </div>
+            <form
+              data-ajax
+              method="POST"
+              action="sendmail.php"
+              class="form__content"
+            >
+              <input
+                class="form__input"
+                type="text"
+                name=""
+                id=""
+                placeholder="Имя"
+              />
+              <input
+                id="tel"
+                data-required
+                data-error
+                class="form__input form-phone"
+                type="tel"
+                placeholder="Телефон"
+              />
+              <input class="form__input" type="email" placeholder="Email" />
+              <div class="form__police police">
+                <span class="police__text"
+                  >Нажимая на кнопку «Отправить», вы соглашаетесь с
+                  <a href="police.html"
+                    >Политикой обработки персональных данных</a
+                  >
+                </span>
 
-					<div class="video-content">
-						<picture><source srcset="img/videoBlock/video1.webp" type="image/webp"><img src="img/videoBlock/video1.jpg" alt=""></picture>
-					</div>
+                <button type="submit" class="police__button">
+                  Отправить <span class="_icon-arrow-right"></span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__logo">
+            <a href="index.html" class="footer__logo"
+              ><img src="img/footerLogo.svg" alt=""
+            /></a>
+          </div>
 
-					<div class="video-info">
-						<div class="video-info__heading">Заголовок ipsum dolor sit amet, consectetur adipiscing elit, sed do</div>
-						<div class="video-info__text">
-							<span>
-								Описание
-								ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-							</span>
-							<span>
-								Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-								ad minim veniam,
-								quis nostruded do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud
-								Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-								ad minim veniam,
-								quis nostruded do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud
-							</span>
-						</div>
+          <div class="footer__content">
+            <div class="footer__social social">
+              <a class="social__number" href="tel:+79191831724"
+                >+7 (919) 183-17-24</a
+              >
+              <a href="#" class="social__police">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__menu menu-footer">
+              <h5 class="menu-footer__heading">РАЗДЕЛЫ</h5>
+              <div class="menu-footer__list">
+                <a href="gift.html" class="menu-footer__link">Для подарков</a>
+                <a href="products.html" class="menu-footer__link"
+                  >Для алкоголя</a
+                >
+                <a href="flowers.html" class="menu-footer__link">Для цветов</a>
+                <a href="brend.html" class="menu-footer__link">Брендирование</a>
+                <a href="contact.html" class="menu-footer__link">Контакты</a>
+              </div>
+            </div>
+            <div class="footer__location location">
+              <h5 class="location__heading">Мы находимся</h5>
+              <span class="location__adres"
+                >Производство: <br />
+                Москва, Варшавское шоссе, 42</span
+              >
+              <span class="location__clock"
+                >Режим работы: <br />
+                ежедневно с 08:00 до 22:00</span
+              >
+              <a class="location__email" href="mailto:office@safefabric.ru"
+                >office@safefabric.ru</a
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="vidjet">
+      <div class="vidjet__phone">
+        <a class="test" href="tel:+79191831724"
+          ><img class="vidjet__images" src="img/vidjet/Frame.svg" alt=""
+        /></a>
+      </div>
 
-					</div>
+      <div class="vidjet__style">
+        <div class="vidjet__social">
+          <a href=""
+            ><img class="vidjet__img" src="img/vidjet/whatsapp.svg" alt=""
+          /></a>
+          <a href="mailto:"
+            ><img class="vidjet__img" src="img/vidjet/email.svg" alt=""
+          /></a>
+        </div>
+        <button class="vidjet-button">
+          <img class="vidjet__image" src="img/vidjet/Frame1.svg" alt="" />
+        </button>
+      </div>
+    </div>
 
-					<div class="advantages__content content-advantages">
+    <div class="button-head">
+      <a
+        href="#"
+        data-goto="#scroll"
+        data-goto-speed="1000"
+        data-goto-header
+        data-goto-top="50"
+        type="button"
+        class="button-head__button"
+      >
+        <img src="img/vidjet/head.svg" alt="" />
+      </a>
+    </div>
 
-						<div class="content-advantages__item item-advantages">
-							<div class="item-advantages__heading">Преимущество 1</div>
-							<span class="item-advantages__text">Описание
-								ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-								nostrud</span>
-						</div>
+    <div id="popup" aria-hidden="true" class="popup">
+      <div class="popup__wrapper">
+        <div class="popup__content">
+          <button data-close type="button" class="popup__close">
+            <picture
+              ><source srcset="img/clouse.webp" type="image/webp" />
+              <img class="popup-clouse__image" src="img/clouse.png" alt=""
+            /></picture>
+          </button>
 
-						<div class="content-advantages__item item-advantages">
-							<div class="item-advantages__heading">Преимущество 2</div>
-							<span class="item-advantages__text">Описание
-								ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-								nostrud</span>
-						</div>
+          <div class="popup__heading">Заполните пожалуйста форму</div>
 
-						<div class="content-advantages__item item-advantages">
-							<div class="item-advantages__heading">Преимущество 3</div>
-							<span class="item-advantages__text">Описание
-								ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-								nostrud</span>
-						</div>
-					</div>
-				</div>
-			</section>
+          <div class="popup__form form-popup">
+            <form
+              data-ajax
+              method="POST"
+              action="sendmail.php"
+              class="form-popup__content"
+              action=""
+            >
+              <input
+                class="form-popup_style form-popup__name"
+                type="text"
+                placeholder="Ваше имя"
+              />
+              <input
+                class="form-popup_style form-popup__phone"
+                type="tel"
+                name=""
+                placeholder="Телефон"
+              />
+              <input
+                data-required
+                data-error
+                class="form-popup_style form-popup__email"
+                type="email"
+                name=""
+                id=""
+                placeholder="Email"
+              />
+              <textarea
+                class="form-popup_style form-popup__text"
+                name=""
+                id=""
+                placeholder="Сообщение"
+              ></textarea>
+              <button type="submit" class="form-popup__button">
+                Отправить
+              </button>
+              <div class="police-police">
+                <span class="police-police__text">
+                  Нажимая на кнопку "Отправить" вы даете свое согласие на
+                  обработку персональных данных и соглашаетесь с
+                  <a href="police.html">Политикой конфидециальности.</a>
+                </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-
-			<section class="order">
-				<div class="order__container">
-					<h2 class="order__heading">Как заказать</h2>
-					<div class="order__content">
-						<div class="order__info">
-							<div class="order__item item">
-								<div class="item__number">01</div>
-								<h4 class="item__heading">Заголовок</h4>
-								<span class="item__text">Описание.
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-									nostrud</span>
-							</div>
-
-							<div class="order__item item">
-								<div class="item__number">02</div>
-								<h4 class="item__heading">Заголовок</h4>
-								<span class="item__text">Описание.
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-									nostrud</span>
-							</div>
-
-							<div class="order__item item">
-								<div class="item__number">03</div>
-								<h4 class="item__heading">Заголовок</h4>
-								<span class="item__text">Описание.
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-									nostrud</span>
-							</div>
-
-							<div class="order__item item">
-								<div class="item__number">04</div>
-								<h4 class="item__heading">Заголовок</h4>
-								<span class="item__text">Описание.
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-									nostrud</span>
-							</div>
-						</div>
-					</div>
-					<button data-popup="#popup" type="button" class="order__button">Заказать <span class="_icon-arrow-right"></span></button>
-				</div>
-			</section>
-			<section class="price">
-				<div class="price__container">
-					<h2 class="price__heading">Что включает в себя цена</h2>
-					<div class="price__info">
-						<span>
-							Описание
-							ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-						</span>
-						<span>
-							Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-							minim veniam,
-							quis nostruded do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-							nostrud
-							Сonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-							minim veniam,
-							quis nostruded do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-							nostrud
-						</span>
-					</div>
-					<div class="price__list">
-						<div class="price__item item">
-							<div class="item__head">Преимущество 1</div>
-							<span class="item__info">
-								Описание
-								ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-							</span>
-						</div>
-						<div class="price__item item">
-							<div class="item__head">Преимущество 2</div>
-							<span class="item__info">
-								Описание
-								ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-							</span>
-						</div>
-						<div class="price__item item">
-							<div class="item__head">Преимущество 3</div>
-							<span class="item__info">
-								Описание
-								ed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-							</span>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="question">
-				<div class="question__container">
-					<h2 class="question__heading">Вопрос / ответ</h2>
-					<div data-spollers class="question__spollers spollers">
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">
-								Сколько времени займет изготовление и доставка заказа?
-								<span class="_icon-arrowSlider-right spollers__arrow"></span>
-							</button>
-							<div class="spollers__body">
-								Время изготовления заказа зависит от тиража, сложности печати, наличия
-								необходимых вещей на складе, загруженности производства и т.д. Но мы
-								всегда стараемся подстроиться под сроки заказчика и выполнить заказ
-								точно к необходимой дате.
-							</div>
-						</div>
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">
-								Сколько времени займет доставка заказа?
-								<span class="_icon-arrowSlider-right spollers__arrow"></span>
-							</button>
-							<div class="spollers__body">
-								Время изготовления заказа зависит от тиража, сложности печати, наличия
-								необходимых вещей на складе, загруженности производства и т.д. Но мы
-								всегда стараемся подстроиться под сроки заказчика и выполнить заказ
-								точно к необходимой дате.
-							</div>
-						</div>
-						<div class="spollers__item">
-							<button type="button" data-spoller class="spollers__title">
-								Сколько времени займет изготовление и доставка заказа?
-								<span class="_icon-arrowSlider-right spollers__arrow"></span>
-							</button>
-							<div class="spollers__body">
-								Время изготовления заказа зависит от тиража, сложности печати, наличия
-								необходимых вещей на складе, загруженности производства и т.д. Но мы
-								всегда стараемся подстроиться под сроки заказчика и выполнить заказ
-								точно к необходимой дате.
-							</div>
-						</div>
-						<div class="spollers__item item__line">
-							<button type="button" data-spoller class="spollers__title">
-								Сколько времени займет доставка заказа?
-								<span class="_icon-arrowSlider-right spollers__arrow"></span>
-							</button>
-							<div class="spollers__body">
-								Время изготовления заказа зависит от тиража, сложности печати, наличия
-								необходимых вещей на складе, загруженности производства и т.д. Но мы
-								всегда стараемся подстроиться под сроки заказчика и выполнить заказ
-								точно к необходимой дате.
-							</div>
-						</div>
-					</div>
-					<button data-popup="#popup" type="button" class="question__button">
-						Заказать <span class="_icon-arrow-right"></span>
-					</button>
-				</div>
-			</section>
-
-			<section class="form">
-				<div class="form__container">
-					<div class="form__info">
-						<h2 class="form__heading">Доставить образцы сегодня!</h2>
-						<span class="form__title">Бесплатная доставка образцов курьером</span>
-						<span class="form__text">Вы сможете оценить качество производимой нами продукции
-						</span>
-					</div>
-					<form data-ajax method="POST" action="sendmail.php" class="form__content">
-						<input class="form__input" type="text" name="" id="" placeholder="Имя" />
-						<input id="tel" data-required data-error class="form__input form-phone" type="tel" placeholder="Телефон" />
-						<input class="form__input" type="email" placeholder="Email" />
-						<div class="form__police police">
-							<span class="police__text">Нажимая на кнопку «Отправить», вы соглашаетесь с
-								<a href="police.html">Политикой обработки персональных данных</a>
-							</span>
-
-							<button type="submit" class="police__button">
-								Отправить <span class="_icon-arrow-right"></span>
-							</button>
-						</div>
-					</form>
-				</div>
-			</section>
-
-		</main>
-		<footer class="footer">
-			<div class="footer__container">
-				<div class="footer__logo">
-					<a href="index.html" class="footer__logo"><img src="img/footerLogo.svg" alt="" /></a>
-				</div>
-
-				<div class="footer__content">
-					<div class="footer__social social">
-						<a class="social__number" href="tel:+79191831724">+7 (919) 183-17-24</a>
-						<a href="#" class="social__police">Политика конфиденциальности</a>
-					</div>
-					<div class="footer__menu menu-footer">
-						<h5 class="menu-footer__heading">РАЗДЕЛЫ</h5>
-						<div class="menu-footer__list">
-							<a href="gift.html" class="menu-footer__link">Для подарков</a>
-							<a href="products.html" class="menu-footer__link">Для алкоголя</a>
-							<a href="flowers.html" class="menu-footer__link">Для цветов</a>
-							<a href="brend.html" class="menu-footer__link">Брендирование</a>
-							<a href="contact.html" class="menu-footer__link">Контакты</a>
-						</div>
-					</div>
-					<div class="footer__location location">
-						<h5 class="location__heading">Мы находимся</h5>
-						<span class="location__adres">Производство: <br />
-							Москва, Варшавское шоссе, 42</span>
-						<span class="location__clock">Режим работы: <br />
-							ежедневно с 08:00 до 22:00</span>
-						<a class="location__email" href="mailto:office@safefabric.ru">office@safefabric.ru</a>
-					</div>
-				</div>
-			</div>
-		</footer>
-
-
-	</div>
-	<div class="vidjet">
-		<div class="vidjet__phone">
-			<a class="test" href="tel:+79191831724"><img class="vidjet__images" src="img/vidjet/Frame.svg" alt="" /></a>
-		</div>
-
-		<div class="vidjet__style">
-			<div class="vidjet__social">
-				<a href=""><img class="vidjet__img" src="img/vidjet/whatsapp.svg" alt="" /></a>
-				<a href="mailto:"><img class="vidjet__img" src="img/vidjet/email.svg" alt="" /></a>
-			</div>
-			<button class="vidjet-button">
-				<img class="vidjet__image" src="img/vidjet/Frame1.svg" alt="" />
-			</button>
-		</div>
-	</div>
-
-	<div class="button-head">
-		<a href="#" data-goto="#scroll" data-goto-speed="1000" data-goto-header data-goto-top="50" type="button" class="button-head__button">
-			<img src="img/vidjet/head.svg" alt="" />
-		</a>
-	</div>
-
-	<div id="popup" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<button data-close type="button" class="popup__close">
-					<picture><source srcset="img/clouse.webp" type="image/webp"><img class="popup-clouse__image" src="img/clouse.png" alt="" /></picture>
-				</button>
-
-				<div class="popup__heading">Заполните пожалуйста форму</div>
-
-				<div class="popup__form form-popup">
-					<form data-ajax method="POST" action="sendmail.php" class="form-popup__content" action="">
-						<input class="form-popup_style form-popup__name" type="text" placeholder="Ваше имя" />
-						<input class="form-popup_style form-popup__phone" type="tel" name="" placeholder="Телефон" />
-						<input data-required data-error class="form-popup_style form-popup__email" type="email" name="" id="" placeholder="Email" />
-						<textarea class="form-popup_style form-popup__text" name="" id="" placeholder="Сообщение"></textarea>
-						<button type="submit" class="form-popup__button">Отправить</button>
-						<div class="police-police">
-							<span class="police-police__text">
-								Нажимая на кнопку "Отправить" вы даете свое согласие на обработку
-								персональных данных и соглашаетесь с
-								<a href="police.html">Политикой конфидециальности.</a>
-							</span>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<script src="js/app.min.js?_v=20220504074756"></script>
-
-</body>
-
+    <script src="js/app.min.js?_v=20220504081255"></script>
+  </body>
 </html>
