@@ -1,305 +1,196 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <title>Бреднирование</title>
-    <meta charset="UTF-8" />
-    <meta name="format-detection" content="telephone=no" />
-    <!-- <style>body{opacity: 0;}</style> -->
-    <link rel="stylesheet" href="css/style.min.css?_v=20220504081255" />
-    <link rel="shortcut icon" href="favicon.ico" />
-    <!-- <meta name="robots" content="noindex, nofollow"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
 
-  <body>
-    <div class="wrapper">
-      <header id="header" class="header">
-        <div class="header__container">
-          <div class="header__logo">
-            <a href="index.html" class="header__image"
-              ><img src="img/logo.svg" alt=""
-            /></a>
-          </div>
+<head>
+	<title>Бреднирование</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220504084946">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-          <div class="header__menu menu">
-            <button type="button" class="menu__icon icon-menu">
-              <span></span>
-            </button>
-            <nav class="menu__body">
-              <ul class="menu__list">
-                <li class="menu__item">
-                  <a href="gift.html" class="menu__link">Для подарков</a>
-                </li>
-                <li class="menu__item">
-                  <a href="products.html" class="menu__link">Для алкоголя</a>
-                </li>
-                <li class="menu__item">
-                  <a href="flowers.html" class="menu__link">Для цветов</a>
-                </li>
-                <li class="menu__item">
-                  <a href="brend.html" class="menu__link">Брендирование</a>
-                </li>
-                <li class="menu__item">
-                  <a href="contact.html" class="menu__link _active-link"
-                    >Контакты</a
-                  >
-                </li>
-              </ul>
-              <a class="menu__phone" href="tel:+79191831724"
-                >+7 (919) 183-17-24
-              </a>
-            </nav>
-          </div>
-        </div>
-      </header>
+<body>
+	<div class="wrapper">
+		<header id="header" class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<a href="index.html" class="header__image"><img src="img/logo.svg" alt="" /></a>
+				</div>
 
-      <main class="page">
-        <section id="scroll" class="contact">
-          <div class="contact__container">
-            <div class="body__nav">
-              <div class="body__heading">Контакты</div>
-              <div class="body__menu">
-                <a class="nav__link" href="index.html">Главная</a>
-                <span>/</span>
-                <a class="nav__link link-acitve" href="contact.html"
-                  >Контакты</a
-                >
-              </div>
-            </div>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a id="gift" href="gift.html" class="menu__link">Для подарков</a>
+							</li>
+							<li class="menu__item">
+								<a id="alko" href="products.html" class="menu__link">Для алкоголя</a>
+							</li>
+							<li class="menu__item">
+								<a id="flowers" href="flowers.html" class="menu__link">Для цветов</a>
+							</li>
+							<li class="menu__item">
+								<a id="brend" href="brend.html" class="menu__link">Брендирование</a>
+							</li>
+							<li class="menu__item">
+								<a id="contact" href="contact.html" class="menu__link">Контакты</a>
+							</li>
+						</ul>
+						<a class="menu__phone" href="tel:+79191831724">+7 (919) 183-17-24 </a>
+					</nav>
+				</div>
+			</div>
+		</header>
 
-            <div class="contact-content">
-              <div class="contact-content__info info-content">
-                <a class="info-content__number" href="tel:+79191831724"
-                  >+7 (919) 183-17-24</a
-                >
-                <a
-                  class="info-content__email"
-                  href="mailto:1@деревянные-коробки.рф"
-                  >1@деревянные-коробки.рф</a
-                >
-                <span class="info-content__location"
-                  >Производство: <br />
-                  Москва, Варшавское шоссе, 42</span
-                >
-                <span class="info-content__clock"
-                  >Режим работы: <br />
-                  ежедневно с 08:00 до 22:00</span
-                >
-                <button
-                  data-popup="#popup"
-                  type="button"
-                  class="info-content__button"
-                >
-                  Зазкать <span class="_icon-arrow-right"></span>
-                </button>
-              </div>
+		<main class="page">
+			<section id="scroll" class="contact">
+				<div class="contact__container">
+					<div class="body__nav">
+						<div class="body__heading">Контакты</div>
+						<div class="body__menu">
+							<a class="nav__link" href="index.html">Главная</a>
+							<span>/</span>
+							<a class="nav__link link-acitve" href="contact.html">Контакты</a>
+						</div>
+					</div>
 
-              <div class="contact-content__map">
-                <iframe
-                  class="map__style"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.7098819903445!2d37.62268041620645!3d55.67664498053303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab3519b4a948d%3A0xd1260f7bc856651a!2z0JLQsNGA0YjQsNCy0YHQutC-0LUg0YguLCA0Miwg0JzQvtGB0LrQstCwLCAxMTUyMzA!5e0!3m2!1sru!2sru!4v1651436373212!5m2!1sru!2sru"
-                  style="border: 0"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
-            </div>
-          </div>
-        </section>
+					<div class="contact-content">
+						<div class="contact-content__info info-content">
+							<a class="info-content__number" href="tel:+79191831724">+7 (919) 183-17-24</a>
+							<a class="info-content__email" href="mailto:1@деревянные-коробки.рф">1@деревянные-коробки.рф</a>
+							<span class="info-content__location">Производство: <br />
+								Москва, Варшавское шоссе, 42</span>
+							<span class="info-content__clock">Режим работы: <br />
+								ежедневно с 08:00 до 22:00</span>
+							<button data-popup="#popup" type="button" class="info-content__button">
+								Зазкать <span class="_icon-arrow-right"></span>
+							</button>
+						</div>
 
-        <section class="form">
-          <div class="form__container">
-            <div class="form__info">
-              <h2 class="form__heading">Доставить образцы сегодня!</h2>
-              <span class="form__title"
-                >Бесплатная доставка образцов курьером</span
-              >
-              <span class="form__text"
-                >Вы сможете оценить качество производимой нами продукции
-              </span>
-            </div>
-            <form
-              data-ajax
-              method="POST"
-              action="sendmail.php"
-              class="form__content"
-            >
-              <input
-                class="form__input"
-                type="text"
-                name=""
-                id=""
-                placeholder="Имя"
-              />
-              <input
-                id="tel"
-                data-required
-                data-error
-                class="form__input form-phone"
-                type="tel"
-                placeholder="Телефон"
-              />
-              <input class="form__input" type="email" placeholder="Email" />
-              <div class="form__police police">
-                <span class="police__text"
-                  >Нажимая на кнопку «Отправить», вы соглашаетесь с
-                  <a href="police.html"
-                    >Политикой обработки персональных данных</a
-                  >
-                </span>
+						<div class="contact-content__map">
+							<iframe class="map__style" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.7098819903445!2d37.62268041620645!3d55.67664498053303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414ab3519b4a948d%3A0xd1260f7bc856651a!2z0JLQsNGA0YjQsNCy0YHQutC-0LUg0YguLCA0Miwg0JzQvtGB0LrQstCwLCAxMTUyMzA!5e0!3m2!1sru!2sru!4v1651436373212!5m2!1sru!2sru" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+				</div>
+			</section>
 
-                <button type="submit" class="police__button">
-                  Отправить <span class="_icon-arrow-right"></span>
-                </button>
-              </div>
-            </form>
-          </div>
-        </section>
-      </main>
-      <footer class="footer">
-        <div class="footer__container">
-          <div class="footer__logo">
-            <a href="index.html" class="footer__logo"
-              ><img src="img/footerLogo.svg" alt=""
-            /></a>
-          </div>
+			<section class="form">
+				<div class="form__container">
+					<div class="form__info">
+						<h2 class="form__heading">Доставить образцы сегодня!</h2>
+						<span class="form__title">Бесплатная доставка образцов курьером</span>
+						<span class="form__text">Вы сможете оценить качество производимой нами продукции
+						</span>
+					</div>
+					<form data-ajax method="POST" action="sendmail.php" class="form__content">
+						<input class="form__input" type="text" name="" id="" placeholder="Имя" />
+						<input id="tel" data-required data-error class="form__input form-phone" type="tel" placeholder="Телефон" />
+						<input class="form__input" type="email" placeholder="Email" />
+						<div class="form__police police">
+							<span class="police__text">Нажимая на кнопку «Отправить», вы соглашаетесь с
+								<a href="police.html">Политикой обработки персональных данных</a>
+							</span>
 
-          <div class="footer__content">
-            <div class="footer__social social">
-              <a class="social__number" href="tel:+79191831724"
-                >+7 (919) 183-17-24</a
-              >
-              <a href="#" class="social__police">Политика конфиденциальности</a>
-            </div>
-            <div class="footer__menu menu-footer">
-              <h5 class="menu-footer__heading">РАЗДЕЛЫ</h5>
-              <div class="menu-footer__list">
-                <a href="gift.html" class="menu-footer__link">Для подарков</a>
-                <a href="products.html" class="menu-footer__link"
-                  >Для алкоголя</a
-                >
-                <a href="flowers.html" class="menu-footer__link">Для цветов</a>
-                <a href="brend.html" class="menu-footer__link">Брендирование</a>
-                <a href="contact.html" class="menu-footer__link">Контакты</a>
-              </div>
-            </div>
-            <div class="footer__location location">
-              <h5 class="location__heading">Мы находимся</h5>
-              <span class="location__adres"
-                >Производство: <br />
-                Москва, Варшавское шоссе, 42</span
-              >
-              <span class="location__clock"
-                >Режим работы: <br />
-                ежедневно с 08:00 до 22:00</span
-              >
-              <a class="location__email" href="mailto:office@safefabric.ru"
-                >office@safefabric.ru</a
-              >
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-    <div class="vidjet">
-      <div class="vidjet__phone">
-        <a class="test" href="tel:+79191831724"
-          ><img class="vidjet__images" src="img/vidjet/Frame.svg" alt=""
-        /></a>
-      </div>
+							<button type="submit" class="police__button">
+								Отправить <span class="_icon-arrow-right"></span>
+							</button>
+						</div>
+					</form>
+				</div>
+			</section>
 
-      <div class="vidjet__style">
-        <div class="vidjet__social">
-          <a href=""
-            ><img class="vidjet__img" src="img/vidjet/whatsapp.svg" alt=""
-          /></a>
-          <a href="mailto:"
-            ><img class="vidjet__img" src="img/vidjet/email.svg" alt=""
-          /></a>
-        </div>
-        <button class="vidjet-button">
-          <img class="vidjet__image" src="img/vidjet/Frame1.svg" alt="" />
-        </button>
-      </div>
-    </div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo">
+					<a href="index.html" class="footer__logo"><img src="img/footerLogo.svg" alt="" /></a>
+				</div>
 
-    <div class="button-head">
-      <a
-        href="#"
-        data-goto="#scroll"
-        data-goto-speed="1000"
-        data-goto-header
-        data-goto-top="50"
-        type="button"
-        class="button-head__button"
-      >
-        <img src="img/vidjet/head.svg" alt="" />
-      </a>
-    </div>
+				<div class="footer__content">
+					<div class="footer__social social">
+						<a class="social__number" href="tel:+79191831724">+7 (919) 183-17-24</a>
+						<a href="#" class="social__police">Политика конфиденциальности</a>
+					</div>
+					<div class="footer__menu menu-footer">
+						<h5 class="menu-footer__heading">РАЗДЕЛЫ</h5>
+						<div class="menu-footer__list">
+							<a href="gift.html" class="menu-footer__link">Для подарков</a>
+							<a href="products.html" class="menu-footer__link">Для алкоголя</a>
+							<a href="flowers.html" class="menu-footer__link">Для цветов</a>
+							<a href="brend.html" class="menu-footer__link">Брендирование</a>
+							<a href="contact.html" class="menu-footer__link">Контакты</a>
+						</div>
+					</div>
+					<div class="footer__location location">
+						<h5 class="location__heading">Мы находимся</h5>
+						<span class="location__adres">Производство: <br />
+							Москва, Варшавское шоссе, 42</span>
+						<span class="location__clock">Режим работы: <br />
+							ежедневно с 08:00 до 22:00</span>
+						<a class="location__email" href="mailto:office@safefabric.ru">office@safefabric.ru</a>
+					</div>
+				</div>
+			</div>
+		</footer>
 
-    <div id="popup" aria-hidden="true" class="popup">
-      <div class="popup__wrapper">
-        <div class="popup__content">
-          <button data-close type="button" class="popup__close">
-            <picture
-              ><source srcset="img/clouse.webp" type="image/webp" />
-              <img class="popup-clouse__image" src="img/clouse.png" alt=""
-            /></picture>
-          </button>
+	</div>
+	<div class="vidjet">
+		<div class="vidjet__phone">
+			<a class="test" href="tel:+79191831724"><img class="vidjet__images" src="img/vidjet/Frame.svg" alt="" /></a>
+		</div>
 
-          <div class="popup__heading">Заполните пожалуйста форму</div>
+		<div class="vidjet__style">
+			<div class="vidjet__social">
+				<a href=""><img class="vidjet__img" src="img/vidjet/whatsapp.svg" alt="" /></a>
+				<a href="mailto:"><img class="vidjet__img" src="img/vidjet/email.svg" alt="" /></a>
+			</div>
+			<button class="vidjet-button">
+				<img class="vidjet__image" src="img/vidjet/Frame1.svg" alt="" />
+			</button>
+		</div>
+	</div>
 
-          <div class="popup__form form-popup">
-            <form
-              data-ajax
-              method="POST"
-              action="sendmail.php"
-              class="form-popup__content"
-              action=""
-            >
-              <input
-                class="form-popup_style form-popup__name"
-                type="text"
-                placeholder="Ваше имя"
-              />
-              <input
-                class="form-popup_style form-popup__phone"
-                type="tel"
-                name=""
-                placeholder="Телефон"
-              />
-              <input
-                data-required
-                data-error
-                class="form-popup_style form-popup__email"
-                type="email"
-                name=""
-                id=""
-                placeholder="Email"
-              />
-              <textarea
-                class="form-popup_style form-popup__text"
-                name=""
-                id=""
-                placeholder="Сообщение"
-              ></textarea>
-              <button type="submit" class="form-popup__button">
-                Отправить
-              </button>
-              <div class="police-police">
-                <span class="police-police__text">
-                  Нажимая на кнопку "Отправить" вы даете свое согласие на
-                  обработку персональных данных и соглашаетесь с
-                  <a href="police.html">Политикой конфидециальности.</a>
-                </span>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+	<div class="button-head">
+		<a href="#" data-goto="#scroll" data-goto-speed="1000" data-goto-header data-goto-top="50" type="button" class="button-head__button">
+			<img src="img/vidjet/head.svg" alt="" />
+		</a>
+	</div>
 
-    <script src="js/app.min.js?_v=20220504081255"></script>
-  </body>
+	<div id="popup" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<picture><source srcset="img/clouse.webp" type="image/webp"><img class="popup-clouse__image" src="img/clouse.png" alt="" /></picture>
+				</button>
+
+				<div class="popup__heading">Заполните пожалуйста форму</div>
+
+				<div class="popup__form form-popup">
+					<form data-ajax method="POST" action="sendmail.php" class="form-popup__content" action="">
+						<input class="form-popup_style form-popup__name" type="text" placeholder="Ваше имя" />
+						<input class="form-popup_style form-popup__phone" type="tel" name="" placeholder="Телефон" />
+						<input data-required data-error class="form-popup_style form-popup__email" type="email" name="" id="" placeholder="Email" />
+						<textarea class="form-popup_style form-popup__text" name="" id="" placeholder="Сообщение"></textarea>
+						<button type="submit" class="form-popup__button">Отправить</button>
+						<div class="police-police">
+							<span class="police-police__text">
+								Нажимая на кнопку "Отправить" вы даете свое согласие на обработку
+								персональных данных и соглашаетесь с
+								<a href="police.html">Политикой конфидециальности.</a>
+							</span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/app.min.js?_v=20220504084946"></script>
+
+</body>
+
 </html>
