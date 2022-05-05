@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220504201739">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220505111719">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,27 +25,32 @@
 					<nav class="menu__body">
 						<ul class="menu__list">
 							<li class="menu__item">
-								<a id="gift" href="gift.html" class="menu__link menu__active">Для подарков</a>
+								<a href="gift.html" class="menu__link">Для подарков</a>
 							</li>
 							<li class="menu__item">
-								<a id="alko" href="products.html" class="menu__link">Для алкоголя</a>
+								<a href="alcohole.html" class="menu__link">Для алкоголя</a>
 							</li>
 							<li class="menu__item">
-								<a id="flowers" href="flowers.html" class="menu__link">Для цветов</a>
+								<a href="flowers.html" class="menu__link">Для цветов</a>
 							</li>
 							<li class="menu__item">
-								<a id="brend" href="brend.html" class="menu__link">Брендирование</a>
+								<a href="brend.html" class="menu__link">Брендирование</a>
 							</li>
 							<li class="menu__item">
-								<a id="contact" href="contact.html" class="menu__link">Контакты</a>
+								<a href="contact.html" class="menu__link menu__active">Контакты</a>
 							</li>
 						</ul>
 						<a class="menu__phone" href="tel:+79191831724">+7 (919) 183-17-24 </a>
 					</nav>
 				</div>
 			</div>
-		</header>
 
+			<div class="button-head">
+				<a href="#" data-goto="#scroll" data-goto-speed="1000" data-goto-header data-goto-top="50" type="button" class="button-head__button">
+					<img src="img/vidjet/head.svg" alt="" />
+				</a>
+			</div>
+		</header>
 		<main class="page">
 			<section id="scroll" class="contact">
 				<div class="contact__container">
@@ -86,9 +91,13 @@
 						</span>
 					</div>
 					<form data-ajax method="POST" action="sendmail.php" class="form__content">
+
 						<input class="form__input" type="text" name="" id="" placeholder="Имя" />
-						<input id="tel" data-required data-error class="form__input form-phone" type="tel" placeholder="Телефон" />
+
+						<input id="tel" data-required data-error="Введите пожалуйста номер телефона" class="form__input form-phone" type="tel" placeholder="Телефон" />
+
 						<input class="form__input" type="email" placeholder="Email" />
+
 						<div class="form__police police">
 							<span class="police__text">Нажимая на кнопку «Отправить», вы соглашаетесь с
 								<a class="police-police__link" href="police.html">Политикой обработки персональных данных</a>
@@ -101,7 +110,6 @@
 					</form>
 				</div>
 			</section>
-
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -112,7 +120,7 @@
 				<div class="footer__content">
 					<div class="footer__social social">
 						<a class="social__number" href="tel:+79191831724">+7 (919) 183-17-24</a>
-						<a href="#" class="social__police">Политика конфиденциальности</a>
+						<a href="police.html" class="social__police">Политика конфиденциальности</a>
 					</div>
 					<div class="footer__menu menu-footer">
 						<h5 class="menu-footer__heading">РАЗДЕЛЫ</h5>
@@ -135,12 +143,8 @@
 				</div>
 			</div>
 		</footer>
-
 	</div>
 	<div class="vidjet">
-		<div class="vidjet__phone">
-			<a class="test" href="tel:+79191831724"><img class="vidjet__images" src="img/vidjet/Frame.svg" alt="" /></a>
-		</div>
 
 		<div class="vidjet__style">
 			<div class="vidjet__social">
@@ -151,12 +155,12 @@
 				<img class="vidjet__image" src="img/vidjet/Frame1.svg" alt="" />
 			</button>
 		</div>
-	</div>
 
-	<div class="button-head">
-		<a href="#" data-goto="#scroll" data-goto-speed="1000" data-goto-header data-goto-top="50" type="button" class="button-head__button">
-			<img src="img/vidjet/head.svg" alt="" />
-		</a>
+		<div class="vidjet__phone">
+			<a class="test" href="tel:+79191831724"><img class="vidjet__images" src="img/vidjet/Frame.svg" alt="" /></a>
+		</div>
+
+
 	</div>
 	<div id="popup" aria-hidden="true" class="popup">
 		<div class="popup__wrapper">
@@ -170,7 +174,8 @@
 				<div class="popup__form form-popup">
 					<form data-ajax method="POST" action="sendmail.php" class="form-popup__content" action="">
 						<input class="form-popup_style form-popup__name" type="text" placeholder="Ваше имя" />
-						<input class="form-popup_style form-popup__phone" type="tel" name="" placeholder="Телефон" />
+						<input data-required class="form-popup_style form-popup__phone" type="tel" name="" placeholder="Телефон" />
+						<div class="popup__error">Введите пожалуйста номер телефона</div>
 						<input data-required data-error class="form-popup_style form-popup__email" type="email" name="" id="" placeholder="Email" />
 						<textarea class="form-popup_style form-popup__text" name="" id="" placeholder="Сообщение"></textarea>
 						<button type="submit" class="form-popup__button">Отправить</button>
@@ -186,8 +191,7 @@
 			</div>
 		</div>
 	</div>
-
-	<script src="js/app.min.js?_v=20220504201739"></script>
+	<script src="js/app.min.js?_v=20220505111719"></script>
 
 </body>
 
