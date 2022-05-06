@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220505122737">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220506062709">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -74,23 +74,17 @@
 								<!-- Оболочка слайдера -->
 								<div class="korusel__slider product">
 									<!-- Двигающееся часть слайдера -->
-									<div class="korusel__wrapper swiper-wrapper">
+									<div data-gallery class="korusel__wrapper swiper-wrapper">
 										<!-- Слайд -->
-										<div data-gallery class="korusel__slide swiper-slide">
-											<a href="img/content/slider1.jpg">
-												<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt="" /></picture>
-											</a>
-										</div>
-										<div data-gallery class="korusel__slide swiper-slide">
-											<a href="img/content/slider2.jpg">
-												<picture><source srcset="img/content/slider2.webp" type="image/webp"><img src="img/content/slider2.jpg" alt="" /></picture>
-											</a>
-										</div>
-										<div data-gallery class="korusel__slide swiper-slide">
-											<a href="img/content/slider3.jpg">
-												<picture><source srcset="img/content/slider3.webp" type="image/webp"><img src="img/content/slider3.jpg" alt="" /></picture>
-											</a>
-										</div>
+										<a href="img/content/slider1.jpg" class="korusel__slide swiper-slide">
+											<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt="" /></picture>
+										</a>
+										<a href="img/content/slider2.jpg" class="korusel__slide swiper-slide">
+											<picture><source srcset="img/content/slider2.webp" type="image/webp"><img src="img/content/slider2.jpg" alt="" /></picture>
+										</a>
+										<a href="img/content/slider3.jpg" class="korusel__slide swiper-slide">
+											<picture><source srcset="img/content/slider3.webp" type="image/webp"><img src="img/content/slider3.jpg" alt="" /></picture>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -123,7 +117,6 @@
 					</div>
 				</div>
 			</section>
-
 			<section class="flowers-product">
 				<div class="flowers-product__container">
 					<div data-showmore class="flowers-product__list">
@@ -174,11 +167,11 @@
 								<div class="porduct-flowers__price">
 									от 299 рублей
 								</div>
-								<div class="porduct-flowers__link">
-									<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
-										<span class="_icon-arrow-right"></span>
-									</button>
-								</div>
+
+								<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
+									<span class="_icon-arrow-right"></span>
+								</button>
+
 							</div>
 
 						</div>
@@ -284,11 +277,10 @@
 								<div class="porduct-flowers__price">
 									от 299 рублей
 								</div>
-								<div class="porduct-flowers__link">
-									<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
-										<span class="_icon-arrow-right"></span>
-									</button>
-								</div>
+
+								<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
+									<span class="_icon-arrow-right"></span>
+								</button>
 							</div>
 
 						</div>
@@ -394,11 +386,9 @@
 								<div class="porduct-flowers__price">
 									от 299 рублей
 								</div>
-								<div class="porduct-flowers__link">
-									<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
-										<span class="_icon-arrow-right"></span>
-									</button>
-								</div>
+								<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
+									<span class="_icon-arrow-right"></span>
+								</button>
 							</div>
 
 						</div>
@@ -504,11 +494,9 @@
 								<div class="porduct-flowers__price">
 									от 299 рублей
 								</div>
-								<div class="porduct-flowers__link">
-									<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
-										<span class="_icon-arrow-right"></span>
-									</button>
-								</div>
+								<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
+									<span class="_icon-arrow-right"></span>
+								</button>
 							</div>
 
 						</div>
@@ -614,11 +602,9 @@
 								<div class="porduct-flowers__price">
 									от 299 рублей
 								</div>
-								<div class="porduct-flowers__link">
-									<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
-										<span class="_icon-arrow-right"></span>
-									</button>
-								</div>
+								<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
+									<span class="_icon-arrow-right"></span>
+								</button>
 							</div>
 
 						</div>
@@ -727,11 +713,9 @@
 										<div class="porduct-flowers__price">
 											от 299 рублей
 										</div>
-										<div class="porduct-flowers__link">
-											<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
-												<span class="_icon-arrow-right"></span>
-											</button>
-										</div>
+										<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
+											<span class="_icon-arrow-right"></span>
+										</button>
 									</div>
 
 								</div>
@@ -837,11 +821,9 @@
 										<div class="porduct-flowers__price">
 											от 299 рублей
 										</div>
-										<div class="porduct-flowers__link">
-											<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
-												<span class="_icon-arrow-right"></span>
-											</button>
-										</div>
+										<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
+											<span class="_icon-arrow-right"></span>
+										</button>
 									</div>
 
 								</div>
@@ -947,27 +929,25 @@
 										<div class="porduct-flowers__price">
 											от 299 рублей
 										</div>
-										<div class="porduct-flowers__link">
-											<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
-												<span class="_icon-arrow-right"></span>
-											</button>
-										</div>
+										<button data-popup="#popup" type="button" class="porduct-flowers__btn">Заказать расчет
+											<span class="_icon-arrow-right"></span>
+										</button>
 									</div>
 
 								</div>
 								<!-- ================================================================================ -->
 							</div>
 							<div class="gift-product__showButton">
-								<button id="arrow" hidden data-showmore-button type="button" class="gift__more">
-									Смотреть больше
-									<span class="_icon-arrowSlider-right"></span>
+								<button id="arrow" hidden data-showmore-button type="button" class="">
+									<span class="gift__more">Смотреть больше <p class="_icon-arrowSlider-right"></p></span>
+									<span class="gift__more">Скрыть<p class="_icon-arrowSlider-right"></p></span>
 								</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<section class="reviews">
+			<section data-watch data-watch-once class="reviews">
 				<div class="reviews__container">
 					<h2 class="reviews__heading">Отзывы</h2>
 
@@ -975,109 +955,74 @@
 						<!-- Оболочка слайдера -->
 						<div class="reviews__slider reviews-slider">
 							<!-- Двигающееся часть слайдера -->
-							<div class="reviews__wrapper swiper-wrapper">
+							<div data-gallery class="reviews__wrapper swiper-wrapper">
 								<!-- Слайд -->
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews1.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews1.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews1.jpg" alt="" /></picture>
-									</a>
-								</div>
+								<a href="img/reviews/reviews1.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews1.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews1.jpg" alt="" /></picture>
+								</a>
 
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews2.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews2.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews2.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews3.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews3.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews3.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews4.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews4.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews4.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews5.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews5.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews5.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews6.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews6.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews6.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews7.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews7.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews7.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews8.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews8.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews8.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews9.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews9.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews9.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews10.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews10.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews10.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews11.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews11.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews11.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews12.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews12.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews12.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews13.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews13.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews13.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews14.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews14.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews14.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews15.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews15.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews15.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews16.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews16.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews16.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews17.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews17.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews17.jpg" alt="" /></picture>
-									</a>
-								</div>
-								<div data-gallery class="reviews__slide swiper-slide">
-									<a href="img/reviews/reviews18.jpg" class="gallery__image">
-										<picture><source srcset="img/reviews/reviews18.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews18.jpg" alt="" /></picture>
-									</a>
-								</div>
+								<a href="img/reviews/reviews2.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews2.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews2.jpg" alt="" /></picture>
+								</a>
+
+								<a href="img/reviews/reviews3.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews3.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews3.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews4.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews4.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews4.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews5.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews5.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews5.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews6.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews6.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews6.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews7.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews7.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews7.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews8.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews8.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews8.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews9.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews9.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews9.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews10.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews10.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews10.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews11.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews11.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews11.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews12.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews12.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews12.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews13.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews13.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews13.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews14.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews14.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews14.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews15.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews15.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews15.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews16.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews16.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews16.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews17.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews17.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews17.jpg" alt="" /></picture>
+								</a>
+								<a href="img/reviews/reviews18.jpg" class="reviews__slide swiper-slide">
+									<picture><source srcset="img/reviews/reviews18.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews18.jpg" alt="" /></picture>
+								</a>
 							</div>
 
 							<!-- Если нужна навигация (влево/вправо) -->
 
 							<div class="reviews__btn">
-								<div class="reivews__start">
-									<button data-popup="#popup" type="button" class="reviews__button">
-										Заказать <span class="_icon-arrow-right"></span>
-									</button>
-								</div>
+
+								<button data-popup="#popup" type="button" class="reviews__button">
+									Заказать <span class="_icon-arrow-right"></span>
+								</button>
+
 
 								<div class="reviews__body">
 									<button type="button" class="reviews__errow reviews-button-prev">
@@ -1092,7 +1037,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="question">
+			<section data-watch data-watch-once class="question">
 				<div class="question__container">
 					<h2 class="question__heading">Вопрос / ответ</h2>
 					<div data-spollers class="question__spollers spollers">
@@ -1151,7 +1096,7 @@
 				</div>
 			</section>
 
-			<section class="form">
+			<section data-watch data-watch-once class="form">
 				<div class="form__container">
 					<div class="form__info">
 						<h2 class="form__heading">Доставить образцы сегодня!</h2>
@@ -1260,8 +1205,7 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220505122737"></script>
-
+	<script src="js/app.min.js?_v=20220506062709"></script>
 </body>
 
 </html>
