@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220508153037">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220511191617">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,11 +46,12 @@
 			</div>
 
 			<div class="button-head">
-				<a href="#" data-goto="#scroll" data-goto-speed="1000" data-goto-header data-goto-top="50" type="button" class="button-head__button">
+				<button data-goto="#scroll" data-goto-speed="1000" data-goto-header data-goto-top="50" type="button" class="button-head__button">
 					<img src="img/vidjet/head.svg" alt="" />
-				</a>
+				</button>
 			</div>
 		</header>
+
 		<main class="page">
 			<div class="police-text">
 				<div class="police-text__container">
@@ -237,36 +238,40 @@
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
-				<div class="footer__logo">
-					<a href="index.html" class="footer__logo"><img src="img/footerLogo.svg" alt="" /></a>
-				</div>
+				<div class="arrow"></div>
+				<div class="footer-content">
+					<div class="footer__logo">
+						<a href="index.html" class="footer__logo"><img src="img/footerLogo.svg" alt="" /></a>
+					</div>
 
-				<div class="footer__content">
-					<div class="footer__social social">
-						<a class="social__number" href="tel:+79191831724">+7 (919) 183-17-24</a>
-						<a href="police.html" class="social__police">Политика конфиденциальности</a>
-					</div>
-					<div class="footer__menu menu-footer">
-						<h5 class="menu-footer__heading">РАЗДЕЛЫ</h5>
-						<div class="menu-footer__list">
-							<a href="gift.html" class="menu-footer__link">Для подарков</a>
-							<a href="products.html" class="menu-footer__link">Для алкоголя</a>
-							<a href="flowers.html" class="menu-footer__link">Для цветов</a>
-							<a href="brend.html" class="menu-footer__link">Брендирование</a>
-							<a href="contact.html" class="menu-footer__link">Контакты</a>
+					<div class="footer__content">
+						<div class="footer__social social">
+							<a class="social__number" href="tel:+79191831724">+7 (919) 183-17-24</a>
+							<a href="police.html" class="social__police">Политика конфиденциальности</a>
 						</div>
-					</div>
-					<div class="footer__location location">
-						<h5 class="location__heading">Мы находимся</h5>
-						<span class="location__adres">Производство: <br />
-							Москва, Варшавское шоссе, 42</span>
-						<span class="location__clock">Режим работы: <br />
-							ежедневно с 08:00 до 22:00</span>
-						<a class="location__email" href="mailto:1@деревянные-коробки.рф">1@деревянные-коробки.рф</a>
+						<div class="footer__menu menu-footer">
+							<h5 class="menu-footer__heading">РАЗДЕЛЫ</h5>
+							<div class="menu-footer__list">
+								<a href="gift.html" class="menu-footer__link">Для подарков</a>
+								<a href="products.html" class="menu-footer__link">Для алкоголя</a>
+								<a href="flowers.html" class="menu-footer__link">Для цветов</a>
+								<a href="brend.html" class="menu-footer__link">Брендирование</a>
+								<a href="contact.html" class="menu-footer__link">Контакты</a>
+							</div>
+						</div>
+						<div class="footer__location location">
+							<h5 class="location__heading">Мы находимся</h5>
+							<span class="location__adres">Производство: <br />
+								Москва, Варшавское шоссе, 42</span>
+							<span class="location__clock">Режим работы: <br />
+								ежедневно с 08:00 до 22:00</span>
+							<a class="location__email" href="mailto:1@деревянные-коробки.рф">1@деревянные-коробки.рф</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
+
 	</div>
 	<div class="vidjet">
 
@@ -296,12 +301,12 @@
 				<div class="popup__heading">Заполните, пожалуйста, форму</div>
 
 				<div class="popup__form form-popup">
-					<form data-ajax method="POST" action="sendmail.php" class="form-popup__content" action="">
+					<form data-ajax data-popup-message="#popup-form" method="POST" action="files/sendmail/sendmail.php" class="form-popup__content">
 						<input class="form-popup_style form-popup__name" type="text" placeholder="Ваше имя" />
-						<input data-required class="form-popup_style form-popup__phone" type="tel" name="" placeholder="Телефон" />
+						<input data-required class="form-popup_style form-popup__phone" type="tel" name="Phone" placeholder="Телефон" />
 						<div class="popup__error">Введите пожалуйста номер телефона</div>
-						<input data-required data-error class="form-popup_style form-popup__email" type="email" name="" id="" placeholder="Email" />
-						<textarea class="form-popup_style form-popup__text" name="" id="" placeholder="Опишите ваш запрос"></textarea>
+						<input data-error class="form-popup_style form-popup__email" type="email" name="Email" id="" placeholder="Email" />
+						<textarea class="form-popup_style form-popup__text" name="Message" placeholder="Опишите ваш запрос"></textarea>
 						<button type="submit" class="form-popup__button">Отправить</button>
 						<div class="police-police">
 							<span class="police-police__text">
@@ -315,7 +320,8 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220508153037"></script>
+
+	<script src="js/app.min.js?_v=20220511191617"></script>
 </body>
 
 </html>

@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220508153037">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220511191617">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,10 +25,10 @@
 					<nav class="menu__body">
 						<ul class="menu__list">
 							<li class="menu__item">
-								<a href="gift.html" class="menu__link menu__active">Для подарков</a>
+								<a href="gift.html" class="menu__link">Для подарков</a>
 							</li>
 							<li class="menu__item">
-								<a href="alcohole.html" class="menu__link">Для алкоголя</a>
+								<a href="alcohole.html" class="menu__link menu__active">Для алкоголя</a>
 							</li>
 							<li class="menu__item">
 								<a href="flowers.html" class="menu__link">Для цветов</a>
@@ -46,11 +46,12 @@
 			</div>
 
 			<div class="button-head">
-				<a href="#" data-goto="#scroll" data-goto-speed="1000" data-goto-header data-goto-top="50" type="button" class="button-head__button">
+				<button data-goto="#scroll" data-goto-speed="1000" data-goto-header data-goto-top="50" type="button" class="button-head__button">
 					<img src="img/vidjet/head.svg" alt="" />
-				</a>
+				</button>
 			</div>
 		</header>
+
 		<main class="page">
 			<section id="scroll" class="product-slider">
 				<div class="product-slider__container">
@@ -79,9 +80,9 @@
 										<a href="img/content/slider1.jpg" class="korusel__slide swiper-slide">
 											<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt="" /></picture>
 										</a>
-										<div href="img/content/slider2.jpg" class="korusel__slide swiper-slide">
+										<a href="img/content/slider2.jpg" class="korusel__slide swiper-slide">
 											<picture><source srcset="img/content/slider2.webp" type="image/webp"><img src="img/content/slider2.jpg" alt="" /></picture>
-										</div>
+										</a>
 										<a href="img/content/slider3.jpg" class="korusel__slide swiper-slide">
 											<picture><source srcset="img/content/slider3.webp" type="image/webp"><img src="img/content/slider3.jpg" alt="" /></picture>
 										</a>
@@ -117,12 +118,12 @@
 					</div>
 				</div>
 			</section>
+
 			<section class="alcohole-product">
 				<div class="alcohole-product__container">
 					<div data-showmore class="alcohole-product__list">
 						<!-- ============================================================== -->
 						<div class="alcohole-product__item item-product">
-
 							<div class="item-product__content">
 								<div class="alcohole-product__button">
 									<button type="button" class="alcohole-button-prev">
@@ -131,18 +132,18 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-product__slider alcohole">
+								<div style="overflow: hidden" class="item-product__slider alcohole">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-product__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 										</a>
 									</div>
 								</div>
@@ -160,24 +161,20 @@
 									<span class="product-content__heading">Артикул: 00989</span>
 								</div>
 								<div class="product-content__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="product-content__price">
-									от 299 рублей
-								</div>
+								<div class="product-content__price">от 299 рублей</div>
 
-								<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+								<button data-popup="#popup" type="button" class="product-content__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
-
 							</div>
-
 						</div>
 						<!-- ============================================================== -->
 						<div class="alcohole-product__item item-product">
-
 							<div class="item-product__content">
 								<div class="alcohole-product__button">
 									<button type="button" class="alcohole-1-button-prev">
@@ -186,18 +183,18 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-product__slider alcohole-1">
+								<div style="overflow: hidden" class="item-product__slider alcohole-1">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-product__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 										</a>
 									</div>
 								</div>
@@ -215,24 +212,20 @@
 									<span class="product-content__heading">Артикул: 00989</span>
 								</div>
 								<div class="product-content__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="product-content__price">
-									от 299 рублей
-								</div>
+								<div class="product-content__price">от 299 рублей</div>
 
-								<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+								<button data-popup="#popup" type="button" class="product-content__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
-
 							</div>
-
 						</div>
 						<!-- ============================================================== -->
 						<div class="alcohole-product__item item-product">
-
 							<div class="item-product__content">
 								<div class="alcohole-product__button">
 									<button type="button" class="alcohole-2-button-prev">
@@ -241,18 +234,18 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-product__slider alcohole-2">
+								<div style="overflow: hidden" class="item-product__slider alcohole-2">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-product__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 										</a>
 									</div>
 								</div>
@@ -270,24 +263,20 @@
 									<span class="product-content__heading">Артикул: 00989</span>
 								</div>
 								<div class="product-content__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="product-content__price">
-									от 299 рублей
-								</div>
+								<div class="product-content__price">от 299 рублей</div>
 
-								<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+								<button data-popup="#popup" type="button" class="product-content__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
-
 							</div>
-
 						</div>
 						<!-- ============================================================== -->
 						<div class="alcohole-product__item item-product">
-
 							<div class="item-product__content">
 								<div class="alcohole-product__button">
 									<button type="button" class="alcohole-3-button-prev">
@@ -296,18 +285,18 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-product__slider alcohole-3">
+								<div style="overflow: hidden" class="item-product__slider alcohole-3">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-product__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 										</a>
 									</div>
 								</div>
@@ -325,24 +314,20 @@
 									<span class="product-content__heading">Артикул: 00989</span>
 								</div>
 								<div class="product-content__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="product-content__price">
-									от 299 рублей
-								</div>
+								<div class="product-content__price">от 299 рублей</div>
 
-								<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+								<button data-popup="#popup" type="button" class="product-content__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
-
 							</div>
-
 						</div>
 						<!-- ============================================================== -->
 						<div class="alcohole-product__item item-product">
-
 							<div class="item-product__content">
 								<div class="alcohole-product__button">
 									<button type="button" class="alcohole-4-button-prev">
@@ -351,18 +336,18 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-product__slider alcohole-4">
+								<div style="overflow: hidden" class="item-product__slider alcohole-4">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-product__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 										</a>
 									</div>
 								</div>
@@ -380,24 +365,20 @@
 									<span class="product-content__heading">Артикул: 00989</span>
 								</div>
 								<div class="product-content__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="product-content__price">
-									от 299 рублей
-								</div>
+								<div class="product-content__price">от 299 рублей</div>
 
-								<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+								<button data-popup="#popup" type="button" class="product-content__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
-
 							</div>
-
 						</div>
 						<!-- ============================================================== -->
 						<div class="alcohole-product__item item-product">
-
 							<div class="item-product__content">
 								<div class="alcohole-product__button">
 									<button type="button" class="alcohole-5-button-prev">
@@ -406,18 +387,18 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-product__slider alcohole-5">
+								<div style="overflow: hidden" class="item-product__slider alcohole-5">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-product__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 										</a>
 									</div>
 								</div>
@@ -435,24 +416,20 @@
 									<span class="product-content__heading">Артикул: 00989</span>
 								</div>
 								<div class="product-content__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="product-content__price">
-									от 299 рублей
-								</div>
+								<div class="product-content__price">от 299 рублей</div>
 
-								<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+								<button data-popup="#popup" type="button" class="product-content__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
-
 							</div>
-
 						</div>
 						<!-- ============================================================== -->
 						<div class="alcohole-product__item item-product">
-
 							<div class="item-product__content">
 								<div class="alcohole-product__button">
 									<button type="button" class="alcohole-6-button-prev">
@@ -461,18 +438,18 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-product__slider alcohole-6">
+								<div style="overflow: hidden" class="item-product__slider alcohole-6">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-product__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 										</a>
 									</div>
 								</div>
@@ -490,24 +467,20 @@
 									<span class="product-content__heading">Артикул: 00989</span>
 								</div>
 								<div class="product-content__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="product-content__price">
-									от 299 рублей
-								</div>
+								<div class="product-content__price">от 299 рублей</div>
 
-								<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+								<button data-popup="#popup" type="button" class="product-content__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
-
 							</div>
-
 						</div>
 						<!-- ============================================================== -->
 						<div class="alcohole-product__item item-product">
-
 							<div class="item-product__content">
 								<div class="alcohole-product__button">
 									<button type="button" class="alcohole-7-button-prev">
@@ -516,18 +489,18 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-product__slider alcohole-7">
+								<div style="overflow: hidden" class="item-product__slider alcohole-7">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-product__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 										</a>
 									</div>
 								</div>
@@ -545,24 +518,20 @@
 									<span class="product-content__heading">Артикул: 00989</span>
 								</div>
 								<div class="product-content__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="product-content__price">
-									от 299 рублей
-								</div>
+								<div class="product-content__price">от 299 рублей</div>
 
-								<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+								<button data-popup="#popup" type="button" class="product-content__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
-
 							</div>
-
 						</div>
 						<!-- ============================================================== -->
 						<div class="alcohole-product__item item-product">
-
 							<div class="item-product__content">
 								<div class="alcohole-product__button">
 									<button type="button" class="alcohole-8-button-prev">
@@ -571,18 +540,18 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-product__slider alcohole-8">
+								<div style="overflow: hidden" class="item-product__slider alcohole-8">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-product__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+											<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 										</a>
 									</div>
 								</div>
@@ -600,28 +569,23 @@
 									<span class="product-content__heading">Артикул: 00989</span>
 								</div>
 								<div class="product-content__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="product-content__price">
-									от 299 рублей
-								</div>
+								<div class="product-content__price">от 299 рублей</div>
 
-								<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+								<button data-popup="#popup" type="button" class="product-content__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
-
 							</div>
-
 						</div>
 						<!-- ============================================================== -->
 						<div class="alcohole-product__open">
-
 							<div data-showmore-content="0" class="alcohole-product__list">
 								<!-- ============================================================== -->
 								<div class="alcohole-product__item item-product">
-
 									<div class="item-product__content">
 										<div class="alcohole-product__button">
 											<button type="button" class="alcohole-9-button-prev">
@@ -630,18 +594,18 @@
 										</div>
 
 										<!-- Оболочка слайдера -->
-										<div style="overflow: hidden;" class="item-product__slider alcohole-9">
+										<div style="overflow: hidden" class="item-product__slider alcohole-9">
 											<!-- Двигающееся часть слайдера -->
 											<div data-gallery class="item-product__wrapper swiper-wrapper">
 												<!-- Слайд -->
 												<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 												</a>
 												<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 												</a>
 												<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 												</a>
 											</div>
 										</div>
@@ -659,24 +623,20 @@
 											<span class="product-content__heading">Артикул: 00989</span>
 										</div>
 										<div class="product-content__text">
-											Индивидуальный размер <br>
-											Брендирование под заказчика <br>
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
 											Тираж от 30 штук
 										</div>
-										<div class="product-content__price">
-											от 299 рублей
-										</div>
+										<div class="product-content__price">от 299 рублей</div>
 
-										<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+										<button data-popup="#popup" type="button" class="product-content__btn">
+											Заказать расчет
 											<span class="_icon-arrow-right"></span>
 										</button>
-
 									</div>
-
 								</div>
 								<!-- ============================================================== -->
 								<div class="alcohole-product__item item-product">
-
 									<div class="item-product__content">
 										<div class="alcohole-product__button">
 											<button type="button" class="alcohole-10-button-prev">
@@ -685,18 +645,18 @@
 										</div>
 
 										<!-- Оболочка слайдера -->
-										<div style="overflow: hidden;" class="item-product__slider alcohole-10">
+										<div style="overflow: hidden" class="item-product__slider alcohole-10">
 											<!-- Двигающееся часть слайдера -->
 											<div data-gallery class="item-product__wrapper swiper-wrapper">
 												<!-- Слайд -->
 												<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 												</a>
 												<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 												</a>
 												<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 												</a>
 											</div>
 										</div>
@@ -714,24 +674,20 @@
 											<span class="product-content__heading">Артикул: 00989</span>
 										</div>
 										<div class="product-content__text">
-											Индивидуальный размер <br>
-											Брендирование под заказчика <br>
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
 											Тираж от 30 штук
 										</div>
-										<div class="product-content__price">
-											от 299 рублей
-										</div>
+										<div class="product-content__price">от 299 рублей</div>
 
-										<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+										<button data-popup="#popup" type="button" class="product-content__btn">
+											Заказать расчет
 											<span class="_icon-arrow-right"></span>
 										</button>
-
 									</div>
-
 								</div>
 								<!-- ============================================================== -->
 								<div class="alcohole-product__item item-product">
-
 									<div class="item-product__content">
 										<div class="alcohole-product__button">
 											<button type="button" class="alcohole-11-button-prev">
@@ -740,18 +696,18 @@
 										</div>
 
 										<!-- Оболочка слайдера -->
-										<div style="overflow: hidden;" class="item-product__slider alcohole-11">
+										<div style="overflow: hidden" class="item-product__slider alcohole-11">
 											<!-- Двигающееся часть слайдера -->
 											<div data-gallery class="item-product__wrapper swiper-wrapper">
 												<!-- Слайд -->
 												<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 												</a>
 												<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 												</a>
 												<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 												</a>
 											</div>
 										</div>
@@ -769,50 +725,46 @@
 											<span class="product-content__heading">Артикул: 00989</span>
 										</div>
 										<div class="product-content__text">
-											Индивидуальный размер <br>
-											Брендирование под заказчика <br>
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
 											Тираж от 30 штук
 										</div>
-										<div class="product-content__price">
-											от 299 рублей
-										</div>
+										<div class="product-content__price">от 299 рублей</div>
 
-										<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+										<button data-popup="#popup" type="button" class="product-content__btn">
+											Заказать расчет
 											<span class="_icon-arrow-right"></span>
 										</button>
-
 									</div>
-
 								</div>
 								<!-- ============================================================== -->
 								<div class="alcohole-product__item item-product">
-
 									<div class="item-product__content">
 										<div class="alcohole-product__button">
-											<button type="button" class="alcohole-12-button-prev">
+											<button type="button" class="alcohole-11-button-prev">
 												<span class="_icon-arrowSlider-left slider-arrow"></span>
 											</button>
 										</div>
 
 										<!-- Оболочка слайдера -->
-										<div style="overflow: hidden;" class="item-product__slider alcohole-12">
+										<div style="overflow: hidden" class="item-product__slider alcohole-11">
 											<!-- Двигающееся часть слайдера -->
 											<div data-gallery class="item-product__wrapper swiper-wrapper">
 												<!-- Слайд -->
 												<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 												</a>
 												<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 												</a>
 												<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 												</a>
 											</div>
 										</div>
 
 										<div class="alcohole-product__button">
-											<button type="button" class="alcohole-12-button-next">
+											<button type="button" class="alcohole-11-button-next">
 												<span class="_icon-arrowSlider-right slider-arrow"></span>
 											</button>
 										</div>
@@ -824,50 +776,46 @@
 											<span class="product-content__heading">Артикул: 00989</span>
 										</div>
 										<div class="product-content__text">
-											Индивидуальный размер <br>
-											Брендирование под заказчика <br>
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
 											Тираж от 30 штук
 										</div>
-										<div class="product-content__price">
-											от 299 рублей
-										</div>
+										<div class="product-content__price">от 299 рублей</div>
 
-										<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+										<button data-popup="#popup" type="button" class="product-content__btn">
+											Заказать расчет
 											<span class="_icon-arrow-right"></span>
 										</button>
-
 									</div>
-
 								</div>
 								<!-- ============================================================== -->
 								<div class="alcohole-product__item item-product">
-
 									<div class="item-product__content">
 										<div class="alcohole-product__button">
-											<button type="button" class="alcohole-13-button-prev">
+											<button type="button" class="alcohole-11-button-prev">
 												<span class="_icon-arrowSlider-left slider-arrow"></span>
 											</button>
 										</div>
 
 										<!-- Оболочка слайдера -->
-										<div style="overflow: hidden;" class="item-product__slider alcohole-13">
+										<div style="overflow: hidden" class="item-product__slider alcohole-11">
 											<!-- Двигающееся часть слайдера -->
 											<div data-gallery class="item-product__wrapper swiper-wrapper">
 												<!-- Слайд -->
 												<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 												</a>
 												<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 												</a>
 												<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 												</a>
 											</div>
 										</div>
 
 										<div class="alcohole-product__button">
-											<button type="button" class="alcohole-13-button-next">
+											<button type="button" class="alcohole-11-button-next">
 												<span class="_icon-arrowSlider-right slider-arrow"></span>
 											</button>
 										</div>
@@ -879,50 +827,46 @@
 											<span class="product-content__heading">Артикул: 00989</span>
 										</div>
 										<div class="product-content__text">
-											Индивидуальный размер <br>
-											Брендирование под заказчика <br>
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
 											Тираж от 30 штук
 										</div>
-										<div class="product-content__price">
-											от 299 рублей
-										</div>
+										<div class="product-content__price">от 299 рублей</div>
 
-										<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+										<button data-popup="#popup" type="button" class="product-content__btn">
+											Заказать расчет
 											<span class="_icon-arrow-right"></span>
 										</button>
-
 									</div>
-
 								</div>
 								<!-- ============================================================== -->
 								<div class="alcohole-product__item item-product">
-
 									<div class="item-product__content">
 										<div class="alcohole-product__button">
-											<button type="button" class="alcohole-14-button-prev">
+											<button type="button" class="alcohole-11-button-prev">
 												<span class="_icon-arrowSlider-left slider-arrow"></span>
 											</button>
 										</div>
 
 										<!-- Оболочка слайдера -->
-										<div style="overflow: hidden;" class="item-product__slider alcohole-14">
+										<div style="overflow: hidden" class="item-product__slider alcohole-11">
 											<!-- Двигающееся часть слайдера -->
 											<div data-gallery class="item-product__wrapper swiper-wrapper">
 												<!-- Слайд -->
 												<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
 												</a>
 												<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
 												</a>
 												<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
-													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt=""></picture>
+													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
 												</a>
 											</div>
 										</div>
 
 										<div class="alcohole-product__button">
-											<button type="button" class="alcohole-14-button-next">
+											<button type="button" class="alcohole-11-button-next">
 												<span class="_icon-arrowSlider-right slider-arrow"></span>
 											</button>
 										</div>
@@ -934,37 +878,192 @@
 											<span class="product-content__heading">Артикул: 00989</span>
 										</div>
 										<div class="product-content__text">
-											Индивидуальный размер <br>
-											Брендирование под заказчика <br>
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
 											Тираж от 30 штук
 										</div>
-										<div class="product-content__price">
-											от 299 рублей
-										</div>
+										<div class="product-content__price">от 299 рублей</div>
 
-										<button data-popup="#popup" type="button" class="product-content__btn">Заказать расчет
+										<button data-popup="#popup" type="button" class="product-content__btn">
+											Заказать расчет
 											<span class="_icon-arrow-right"></span>
 										</button>
-
 									</div>
-
 								</div>
 								<!-- ============================================================== -->
+								<div class="alcohole-product__item item-product">
+									<div class="item-product__content">
+										<div class="alcohole-product__button">
+											<button type="button" class="alcohole-11-button-prev">
+												<span class="_icon-arrowSlider-left slider-arrow"></span>
+											</button>
+										</div>
 
+										<!-- Оболочка слайдера -->
+										<div style="overflow: hidden" class="item-product__slider alcohole-11">
+											<!-- Двигающееся часть слайдера -->
+											<div data-gallery class="item-product__wrapper swiper-wrapper">
+												<!-- Слайд -->
+												<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
+													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
+												</a>
+												<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
+													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
+												</a>
+												<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
+													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
+												</a>
+											</div>
+										</div>
+
+										<div class="alcohole-product__button">
+											<button type="button" class="alcohole-11-button-next">
+												<span class="_icon-arrowSlider-right slider-arrow"></span>
+											</button>
+										</div>
+									</div>
+
+									<div class="alcohole-product__content product-content">
+										<div class="content-product__head">
+											<span class="product-content__heading">Подарочная коробка</span>
+											<span class="product-content__heading">Артикул: 00989</span>
+										</div>
+										<div class="product-content__text">
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
+											Тираж от 30 штук
+										</div>
+										<div class="product-content__price">от 299 рублей</div>
+
+										<button data-popup="#popup" type="button" class="product-content__btn">
+											Заказать расчет
+											<span class="_icon-arrow-right"></span>
+										</button>
+									</div>
+								</div>
+								<!-- ============================================================== -->
+								<div class="alcohole-product__item item-product">
+									<div class="item-product__content">
+										<div class="alcohole-product__button">
+											<button type="button" class="alcohole-11-button-prev">
+												<span class="_icon-arrowSlider-left slider-arrow"></span>
+											</button>
+										</div>
+
+										<!-- Оболочка слайдера -->
+										<div style="overflow: hidden" class="item-product__slider alcohole-11">
+											<!-- Двигающееся часть слайдера -->
+											<div data-gallery class="item-product__wrapper swiper-wrapper">
+												<!-- Слайд -->
+												<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
+													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
+												</a>
+												<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
+													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
+												</a>
+												<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
+													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
+												</a>
+											</div>
+										</div>
+
+										<div class="alcohole-product__button">
+											<button type="button" class="alcohole-11-button-next">
+												<span class="_icon-arrowSlider-right slider-arrow"></span>
+											</button>
+										</div>
+									</div>
+
+									<div class="alcohole-product__content product-content">
+										<div class="content-product__head">
+											<span class="product-content__heading">Подарочная коробка</span>
+											<span class="product-content__heading">Артикул: 00989</span>
+										</div>
+										<div class="product-content__text">
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
+											Тираж от 30 штук
+										</div>
+										<div class="product-content__price">от 299 рублей</div>
+
+										<button data-popup="#popup" type="button" class="product-content__btn">
+											Заказать расчет
+											<span class="_icon-arrow-right"></span>
+										</button>
+									</div>
+								</div>
+								<!-- ============================================================== -->
+								<div class="alcohole-product__item item-product">
+									<div class="item-product__content">
+										<div class="alcohole-product__button">
+											<button type="button" class="alcohole-11-button-prev">
+												<span class="_icon-arrowSlider-left slider-arrow"></span>
+											</button>
+										</div>
+
+										<!-- Оболочка слайдера -->
+										<div style="overflow: hidden" class="item-product__slider alcohole-11">
+											<!-- Двигающееся часть слайдера -->
+											<div data-gallery class="item-product__wrapper swiper-wrapper">
+												<!-- Слайд -->
+												<a href="img/alcohole/alcohole1.jpg" class="item-product__slide swiper-slide">
+													<picture><source srcset="img/alcohole/alcohole1.webp" type="image/webp"><img src="img/alcohole/alcohole1.jpg" alt="" /></picture>
+												</a>
+												<a href="img/alcohole/alcohole2.jpg" class="item-product__slide swiper-slide">
+													<picture><source srcset="img/alcohole/alcohole2.webp" type="image/webp"><img src="img/alcohole/alcohole2.jpg" alt="" /></picture>
+												</a>
+												<a href="img/alcohole/alcohole3.jpg" class="item-product__slide swiper-slide">
+													<picture><source srcset="img/alcohole/alcohole3.webp" type="image/webp"><img src="img/alcohole/alcohole3.jpg" alt="" /></picture>
+												</a>
+											</div>
+										</div>
+
+										<div class="alcohole-product__button">
+											<button type="button" class="alcohole-11-button-next">
+												<span class="_icon-arrowSlider-right slider-arrow"></span>
+											</button>
+										</div>
+									</div>
+
+									<div class="alcohole-product__content product-content">
+										<div class="content-product__head">
+											<span class="product-content__heading">Подарочная коробка</span>
+											<span class="product-content__heading">Артикул: 00989</span>
+										</div>
+										<div class="product-content__text">
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
+											Тираж от 30 штук
+										</div>
+										<div class="product-content__price">от 299 рублей</div>
+
+										<button data-popup="#popup" type="button" class="product-content__btn">
+											Заказать расчет
+											<span class="_icon-arrow-right"></span>
+										</button>
+									</div>
+								</div>
+								<!-- =================================================-->
+
+								<div class="gift-show__buttton">
+									<button type="button" class="gift-show__btn">
+										Скачать полный каталог
+									</button>
+								</div>
 							</div>
 
+							<!-- =================================================-->
 							<div class="gift-product__showButton">
-								<button id="arrow" hidden data-showmore-button type="button" class="">
-									<span class="gift__more">Смотреть больше <p class="_icon-arrowSlider-right"></p></span>
-									<span class="gift__more">Скрыть<p class="_icon-arrowSlider-right"></p></span>
+								<button hidden id="arrow" data-showmore-button type="button" class="gift__more" btn>
+									Смотреть больше
+									<span class="gift__arrow _icon-arrowSlider-right"></span>
 								</button>
 							</div>
-
 						</div>
-
-
 					</div>
+				</div>
 			</section>
+
 			<section class="reviews">
 				<div class="reviews__container">
 					<h2 class="reviews__heading">Отзывы</h2>
@@ -1036,11 +1135,9 @@
 							<!-- Если нужна навигация (влево/вправо) -->
 
 							<div class="reviews__btn">
-
 								<button data-popup="#popup" type="button" class="reviews__button">
 									Заказать <span class="_icon-arrow-right"></span>
 								</button>
-
 
 								<div class="reviews__body">
 									<button type="button" class="reviews__errow reviews-button-prev">
@@ -1055,6 +1152,7 @@
 					</div>
 				</div>
 			</section>
+
 			<section class="question">
 				<div class="question__container">
 					<h2 class="question__heading">Вопрос / ответ</h2>
@@ -1122,8 +1220,7 @@
 						<span class="form__text">Вы сможете оценить качество производимой нами продукции
 						</span>
 					</div>
-					<form data-ajax method="POST" action="sendmail.php" class="form__content">
-
+					<form data-ajax data-popup-message="#popup-form" method="POST" action="files/sendmail/sendmail.php" class="form__content">
 						<input class="form__input" type="text" name="" id="" placeholder="Имя" />
 
 						<input id="tel" data-required data-error="Введите пожалуйста номер телефона" class="form__input form-phone" type="tel" placeholder="Телефон" />
@@ -1142,39 +1239,44 @@
 					</form>
 				</div>
 			</section>
+
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
-				<div class="footer__logo">
-					<a href="index.html" class="footer__logo"><img src="img/footerLogo.svg" alt="" /></a>
-				</div>
+				<div class="arrow"></div>
+				<div class="footer-content">
+					<div class="footer__logo">
+						<a href="index.html" class="footer__logo"><img src="img/footerLogo.svg" alt="" /></a>
+					</div>
 
-				<div class="footer__content">
-					<div class="footer__social social">
-						<a class="social__number" href="tel:+79191831724">+7 (919) 183-17-24</a>
-						<a href="police.html" class="social__police">Политика конфиденциальности</a>
-					</div>
-					<div class="footer__menu menu-footer">
-						<h5 class="menu-footer__heading">РАЗДЕЛЫ</h5>
-						<div class="menu-footer__list">
-							<a href="gift.html" class="menu-footer__link">Для подарков</a>
-							<a href="products.html" class="menu-footer__link">Для алкоголя</a>
-							<a href="flowers.html" class="menu-footer__link">Для цветов</a>
-							<a href="brend.html" class="menu-footer__link">Брендирование</a>
-							<a href="contact.html" class="menu-footer__link">Контакты</a>
+					<div class="footer__content">
+						<div class="footer__social social">
+							<a class="social__number" href="tel:+79191831724">+7 (919) 183-17-24</a>
+							<a href="police.html" class="social__police">Политика конфиденциальности</a>
 						</div>
-					</div>
-					<div class="footer__location location">
-						<h5 class="location__heading">Мы находимся</h5>
-						<span class="location__adres">Производство: <br />
-							Москва, Варшавское шоссе, 42</span>
-						<span class="location__clock">Режим работы: <br />
-							ежедневно с 08:00 до 22:00</span>
-						<a class="location__email" href="mailto:1@деревянные-коробки.рф">1@деревянные-коробки.рф</a>
+						<div class="footer__menu menu-footer">
+							<h5 class="menu-footer__heading">РАЗДЕЛЫ</h5>
+							<div class="menu-footer__list">
+								<a href="gift.html" class="menu-footer__link">Для подарков</a>
+								<a href="products.html" class="menu-footer__link">Для алкоголя</a>
+								<a href="flowers.html" class="menu-footer__link">Для цветов</a>
+								<a href="brend.html" class="menu-footer__link">Брендирование</a>
+								<a href="contact.html" class="menu-footer__link">Контакты</a>
+							</div>
+						</div>
+						<div class="footer__location location">
+							<h5 class="location__heading">Мы находимся</h5>
+							<span class="location__adres">Производство: <br />
+								Москва, Варшавское шоссе, 42</span>
+							<span class="location__clock">Режим работы: <br />
+								ежедневно с 08:00 до 22:00</span>
+							<a class="location__email" href="mailto:1@деревянные-коробки.рф">1@деревянные-коробки.рф</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
+
 	</div>
 	<div class="vidjet">
 
@@ -1204,12 +1306,12 @@
 				<div class="popup__heading">Заполните, пожалуйста, форму</div>
 
 				<div class="popup__form form-popup">
-					<form data-ajax method="POST" action="sendmail.php" class="form-popup__content" action="">
+					<form data-ajax data-popup-message="#popup-form" method="POST" action="files/sendmail/sendmail.php" class="form-popup__content">
 						<input class="form-popup_style form-popup__name" type="text" placeholder="Ваше имя" />
-						<input data-required class="form-popup_style form-popup__phone" type="tel" name="" placeholder="Телефон" />
+						<input data-required class="form-popup_style form-popup__phone" type="tel" name="Phone" placeholder="Телефон" />
 						<div class="popup__error">Введите пожалуйста номер телефона</div>
-						<input data-required data-error class="form-popup_style form-popup__email" type="email" name="" id="" placeholder="Email" />
-						<textarea class="form-popup_style form-popup__text" name="" id="" placeholder="Опишите ваш запрос"></textarea>
+						<input data-error class="form-popup_style form-popup__email" type="email" name="Email" id="" placeholder="Email" />
+						<textarea class="form-popup_style form-popup__text" name="Message" placeholder="Опишите ваш запрос"></textarea>
 						<button type="submit" class="form-popup__button">Отправить</button>
 						<div class="police-police">
 							<span class="police-police__text">
@@ -1223,7 +1325,8 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220508153037"></script>
+
+	<script src="js/app.min.js?_v=20220511191617"></script>
 </body>
 
 </html>

@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220508153037">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220511191617">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,14 +46,14 @@
 			</div>
 
 			<div class="button-head">
-				<a href="#" data-goto="#scroll" data-goto-speed="1000" data-goto-header data-goto-top="50" type="button"
-					class="button-head__button">
+				<button data-goto="#scroll" data-goto-speed="1000" data-goto-header data-goto-top="50" type="button" class="button-head__button">
 					<img src="img/vidjet/head.svg" alt="" />
-				</a>
+				</button>
 			</div>
 		</header>
+
 		<main class="page">
-			<section id="gift" class="product-slider">
+			<section id="scroll" class="product-slider">
 				<div class="product-slider__container">
 					<div class="product-slider__nav nav">
 						<h2 class="nav__heading">Для подарков</h2>
@@ -78,22 +78,13 @@
 									<div data-gallery class="korusel__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/content/slider1.jpg" class="korusel__slide swiper-slide">
-											<picture>
-												<source srcset="img/content/slider1.webp" type="image/webp"><img
-													src="img/content/slider1.jpg" alt="" />
-											</picture>
+											<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/content/slider2.jpg" class="korusel__slide swiper-slide">
-											<picture>
-												<source srcset="img/content/slider2.webp" type="image/webp"><img
-													src="img/content/slider2.jpg" alt="" />
-											</picture>
+											<picture><source srcset="img/content/slider2.webp" type="image/webp"><img src="img/content/slider2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/content/slider3.jpg" class="korusel__slide swiper-slide">
-											<picture>
-												<source srcset="img/content/slider3.webp" type="image/webp"><img
-													src="img/content/slider3.jpg" alt="" />
-											</picture>
+											<picture><source srcset="img/content/slider3.webp" type="image/webp"><img src="img/content/slider3.jpg" alt="" /></picture>
 										</a>
 									</div>
 								</div>
@@ -127,12 +118,12 @@
 					</div>
 				</div>
 			</section>
+
 			<section class="gift-product">
 				<div class="gift-product__container">
 					<div data-showmore class="gift-product__list">
 						<!-- ================================================================================ -->
 						<div class="gift-product__item item-gift">
-
 							<div class="item-gift__content">
 								<div class="item-gift__button">
 									<button type="button" class="gift-button-prev">
@@ -141,30 +132,20 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-gift__slider gift">
+								<div style="overflow: hidden" class="item-gift__slider gift">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-gift__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift1.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift2.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift3.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 										</a>
 									</div>
-
 								</div>
 								<div class="item-gift__button">
 									<button type="button" class="gift-button-next">
@@ -179,24 +160,20 @@
 									<span class="porduct-gift__heading">Артикул: 00989</span>
 								</div>
 								<div class="porduct-gift__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="porduct-gift__price">
-									от 299 рублей
-								</div>
+								<div class="porduct-gift__price">от 299 рублей</div>
 
-								<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+								<button data-popup="#popup" type="button" class="porduct-gift__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
-
 							</div>
-
 						</div>
 						<!-- ================================================================================ -->
 						<div class="gift-product__item item-gift">
-
 							<div class="item-gift__content">
 								<div class="item-gift__button">
 									<button type="button" class="gift-1-button-prev">
@@ -205,30 +182,20 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-gift__slider gift-1">
+								<div style="overflow: hidden" class="item-gift__slider gift-1">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-gift__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift1.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift2.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift3.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 										</a>
 									</div>
-
 								</div>
 								<div class="item-gift__button">
 									<button type="button" class="gift-1-button-next">
@@ -243,22 +210,19 @@
 									<span class="porduct-gift__heading">Артикул: 00989</span>
 								</div>
 								<div class="porduct-gift__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="porduct-gift__price">
-									от 299 рублей
-								</div>
-								<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+								<div class="porduct-gift__price">от 299 рублей</div>
+								<button data-popup="#popup" type="button" class="porduct-gift__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
 							</div>
-
 						</div>
 						<!-- ================================================================================ -->
 						<div class="gift-product__item item-gift">
-
 							<div class="item-gift__content">
 								<div class="item-gift__button">
 									<button type="button" class="gift-2-button-prev">
@@ -267,30 +231,20 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-gift__slider gift-2">
+								<div style="overflow: hidden" class="item-gift__slider gift-2">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-gift__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift1.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift2.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift3.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 										</a>
 									</div>
-
 								</div>
 								<div class="item-gift__button">
 									<button type="button" class="gift-2-button-next">
@@ -305,22 +259,19 @@
 									<span class="porduct-gift__heading">Артикул: 00989</span>
 								</div>
 								<div class="porduct-gift__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="porduct-gift__price">
-									от 299 рублей
-								</div>
-								<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+								<div class="porduct-gift__price">от 299 рублей</div>
+								<button data-popup="#popup" type="button" class="porduct-gift__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
 							</div>
-
 						</div>
 						<!-- ================================================================================ -->
 						<div class="gift-product__item item-gift">
-
 							<div class="item-gift__content">
 								<div class="item-gift__button">
 									<button type="button" class="gift-3-button-prev">
@@ -329,30 +280,20 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-gift__slider gift-3">
+								<div style="overflow: hidden" class="item-gift__slider gift-3">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-gift__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift1.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift2.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift3.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 										</a>
 									</div>
-
 								</div>
 								<div class="item-gift__button">
 									<button type="button" class="gift-3-button-next">
@@ -367,22 +308,19 @@
 									<span class="porduct-gift__heading">Артикул: 00989</span>
 								</div>
 								<div class="porduct-gift__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="porduct-gift__price">
-									от 299 рублей
-								</div>
-								<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+								<div class="porduct-gift__price">от 299 рублей</div>
+								<button data-popup="#popup" type="button" class="porduct-gift__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
 							</div>
-
 						</div>
 						<!-- ================================================================================ -->
 						<div class="gift-product__item item-gift">
-
 							<div class="item-gift__content">
 								<div class="item-gift__button">
 									<button type="button" class="gift-4-button-prev">
@@ -391,30 +329,20 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-gift__slider gift-4">
+								<div style="overflow: hidden" class="item-gift__slider gift-4">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-gift__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift1.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift2.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift3.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 										</a>
 									</div>
-
 								</div>
 								<div class="item-gift__button">
 									<button type="button" class="gift-4-button-next">
@@ -429,22 +357,19 @@
 									<span class="porduct-gift__heading">Артикул: 00989</span>
 								</div>
 								<div class="porduct-gift__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="porduct-gift__price">
-									от 299 рублей
-								</div>
-								<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+								<div class="porduct-gift__price">от 299 рублей</div>
+								<button data-popup="#popup" type="button" class="porduct-gift__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
 							</div>
-
 						</div>
 						<!-- ================================================================================ -->
 						<div class="gift-product__item item-gift">
-
 							<div class="item-gift__content">
 								<div class="item-gift__button">
 									<button type="button" class="gift-5-button-prev">
@@ -453,30 +378,20 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-gift__slider gift-5">
+								<div style="overflow: hidden" class="item-gift__slider gift-5">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-gift__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift1.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift2.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift3.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 										</a>
 									</div>
-
 								</div>
 								<div class="item-gift__button">
 									<button type="button" class="gift-5-button-next">
@@ -491,22 +406,19 @@
 									<span class="porduct-gift__heading">Артикул: 00989</span>
 								</div>
 								<div class="porduct-gift__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="porduct-gift__price">
-									от 299 рублей
-								</div>
-								<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+								<div class="porduct-gift__price">от 299 рублей</div>
+								<button data-popup="#popup" type="button" class="porduct-gift__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
 							</div>
-
 						</div>
 						<!-- ================================================================================ -->
 						<div class="gift-product__item item-gift">
-
 							<div class="item-gift__content">
 								<div class="item-gift__button">
 									<button type="button" class="gift-6-button-prev">
@@ -515,30 +427,20 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-gift__slider gift-6">
+								<div style="overflow: hidden" class="item-gift__slider gift-6">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-gift__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift1.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift2.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift3.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 										</a>
 									</div>
-
 								</div>
 								<div class="item-gift__button">
 									<button type="button" class="gift-6-button-next">
@@ -553,22 +455,19 @@
 									<span class="porduct-gift__heading">Артикул: 00989</span>
 								</div>
 								<div class="porduct-gift__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="porduct-gift__price">
-									от 299 рублей
-								</div>
-								<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+								<div class="porduct-gift__price">от 299 рублей</div>
+								<button data-popup="#popup" type="button" class="porduct-gift__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
 							</div>
-
 						</div>
 						<!-- ================================================================================ -->
 						<div class="gift-product__item item-gift">
-
 							<div class="item-gift__content">
 								<div class="item-gift__button">
 									<button type="button" class="gift-7-button-prev">
@@ -577,30 +476,20 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-gift__slider gift-7">
+								<div style="overflow: hidden" class="item-gift__slider gift-7">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-gift__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift1.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift2.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift3.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 										</a>
 									</div>
-
 								</div>
 								<div class="item-gift__button">
 									<button type="button" class="gift-7-button-next">
@@ -615,22 +504,19 @@
 									<span class="porduct-gift__heading">Артикул: 00989</span>
 								</div>
 								<div class="porduct-gift__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="porduct-gift__price">
-									от 299 рублей
-								</div>
-								<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+								<div class="porduct-gift__price">от 299 рублей</div>
+								<button data-popup="#popup" type="button" class="porduct-gift__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
 							</div>
-
 						</div>
 						<!-- ================================================================================ -->
 						<div class="gift-product__item item-gift">
-
 							<div class="item-gift__content">
 								<div class="item-gift__button">
 									<button type="button" class="gift-8-button-prev">
@@ -639,30 +525,20 @@
 								</div>
 
 								<!-- Оболочка слайдера -->
-								<div style="overflow: hidden;" class="item-gift__slider gift-8">
+								<div style="overflow: hidden" class="item-gift__slider gift-8">
 									<!-- Двигающееся часть слайдера -->
 									<div data-gallery class="item-gift__wrapper swiper-wrapper">
 										<!-- Слайд -->
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift1.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift2.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 										</a>
 										<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-											<picture>
-												<source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image"
-													src="img/gift/gift3.jpg" alt="">
-											</picture>
+											<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 										</a>
 									</div>
-
 								</div>
 								<div class="item-gift__button">
 									<button type="button" class="gift-8-button-next">
@@ -677,18 +553,16 @@
 									<span class="porduct-gift__heading">Артикул: 00989</span>
 								</div>
 								<div class="porduct-gift__text">
-									Индивидуальный размер <br>
-									Брендирование под заказчика <br>
+									Индивидуальный размер <br />
+									Брендирование под заказчика <br />
 									Тираж от 30 штук
 								</div>
-								<div class="porduct-gift__price">
-									от 299 рублей
-								</div>
-								<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+								<div class="porduct-gift__price">от 299 рублей</div>
+								<button data-popup="#popup" type="button" class="porduct-gift__btn">
+									Заказать расчет
 									<span class="_icon-arrow-right"></span>
 								</button>
 							</div>
-
 						</div>
 						<!-- ================================================================================ -->
 
@@ -696,42 +570,31 @@
 							<div data-showmore-content="0" class="gift-product__list">
 								<!-- ================================================================================ -->
 								<div class="gift-product__item item-gift">
-
 									<div class="item-gift__content">
 										<div class="item-gift__button">
-											<button type="button" class="gift-9-button-prev">
+											<button type="button" class="gift-8-button-prev">
 												<span class="_icon-arrowSlider-left slider-arrow"></span>
 											</button>
 										</div>
 
 										<!-- Оболочка слайдера -->
-										<div style="overflow: hidden;" class="item-gift__slider gift-9">
+										<div style="overflow: hidden" class="item-gift__slider gift-8">
 											<!-- Двигающееся часть слайдера -->
 											<div data-gallery class="item-gift__wrapper swiper-wrapper">
 												<!-- Слайд -->
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift1.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift1.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 												</a>
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift2.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift2.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 												</a>
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift3.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift3.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 												</a>
 											</div>
-
 										</div>
 										<div class="item-gift__button">
-											<button type="button" class="gift-9-button-next">
+											<button type="button" class="gift-8-button-next">
 												<span class="_icon-arrowSlider-right slider-arrow"></span>
 											</button>
 										</div>
@@ -743,57 +606,44 @@
 											<span class="porduct-gift__heading">Артикул: 00989</span>
 										</div>
 										<div class="porduct-gift__text">
-											Индивидуальный размер <br>
-											Брендирование под заказчика <br>
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
 											Тираж от 30 штук
 										</div>
-										<div class="porduct-gift__price">
-											от 299 рублей
-										</div>
-										<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+										<div class="porduct-gift__price">от 299 рублей</div>
+										<button data-popup="#popup" type="button" class="porduct-gift__btn">
+											Заказать расчет
 											<span class="_icon-arrow-right"></span>
 										</button>
 									</div>
-
 								</div>
 								<!-- ================================================================================ -->
 								<div class="gift-product__item item-gift">
-
 									<div class="item-gift__content">
 										<div class="item-gift__button">
-											<button type="button" class="gift-10-button-prev">
+											<button type="button" class="gift-8-button-prev">
 												<span class="_icon-arrowSlider-left slider-arrow"></span>
 											</button>
 										</div>
 
 										<!-- Оболочка слайдера -->
-										<div style="overflow: hidden;" class="item-gift__slider gift-10">
+										<div style="overflow: hidden" class="item-gift__slider gift-8">
 											<!-- Двигающееся часть слайдера -->
 											<div data-gallery class="item-gift__wrapper swiper-wrapper">
 												<!-- Слайд -->
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift1.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift1.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 												</a>
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift2.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift2.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 												</a>
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift3.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift3.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 												</a>
 											</div>
-
 										</div>
 										<div class="item-gift__button">
-											<button type="button" class="gift-10-button-next">
+											<button type="button" class="gift-8-button-next">
 												<span class="_icon-arrowSlider-right slider-arrow"></span>
 											</button>
 										</div>
@@ -805,57 +655,44 @@
 											<span class="porduct-gift__heading">Артикул: 00989</span>
 										</div>
 										<div class="porduct-gift__text">
-											Индивидуальный размер <br>
-											Брендирование под заказчика <br>
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
 											Тираж от 30 штук
 										</div>
-										<div class="porduct-gift__price">
-											от 299 рублей
-										</div>
-										<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+										<div class="porduct-gift__price">от 299 рублей</div>
+										<button data-popup="#popup" type="button" class="porduct-gift__btn">
+											Заказать расчет
 											<span class="_icon-arrow-right"></span>
 										</button>
 									</div>
-
 								</div>
 								<!-- ================================================================================ -->
 								<div class="gift-product__item item-gift">
-
 									<div class="item-gift__content">
 										<div class="item-gift__button">
-											<button type="button" class="gift-11-button-prev">
+											<button type="button" class="gift-8-button-prev">
 												<span class="_icon-arrowSlider-left slider-arrow"></span>
 											</button>
 										</div>
 
 										<!-- Оболочка слайдера -->
-										<div style="overflow: hidden;" class="item-gift__slider gift-11">
+										<div style="overflow: hidden" class="item-gift__slider gift-8">
 											<!-- Двигающееся часть слайдера -->
 											<div data-gallery class="item-gift__wrapper swiper-wrapper">
 												<!-- Слайд -->
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift1.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift1.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 												</a>
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift2.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift2.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 												</a>
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift3.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift3.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 												</a>
 											</div>
-
 										</div>
 										<div class="item-gift__button">
-											<button type="button" class="gift-11-button-next">
+											<button type="button" class="gift-8-button-next">
 												<span class="_icon-arrowSlider-right slider-arrow"></span>
 											</button>
 										</div>
@@ -867,57 +704,44 @@
 											<span class="porduct-gift__heading">Артикул: 00989</span>
 										</div>
 										<div class="porduct-gift__text">
-											Индивидуальный размер <br>
-											Брендирование под заказчика <br>
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
 											Тираж от 30 штук
 										</div>
-										<div class="porduct-gift__price">
-											от 299 рублей
-										</div>
-										<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+										<div class="porduct-gift__price">от 299 рублей</div>
+										<button data-popup="#popup" type="button" class="porduct-gift__btn">
+											Заказать расчет
 											<span class="_icon-arrow-right"></span>
 										</button>
 									</div>
-
 								</div>
 								<!-- ================================================================================ -->
 								<div class="gift-product__item item-gift">
-
 									<div class="item-gift__content">
 										<div class="item-gift__button">
-											<button type="button" class="gift-12-button-prev">
+											<button type="button" class="gift-8-button-prev">
 												<span class="_icon-arrowSlider-left slider-arrow"></span>
 											</button>
 										</div>
 
 										<!-- Оболочка слайдера -->
-										<div style="overflow: hidden;" class="item-gift__slider gift-12">
+										<div style="overflow: hidden" class="item-gift__slider gift-8">
 											<!-- Двигающееся часть слайдера -->
 											<div data-gallery class="item-gift__wrapper swiper-wrapper">
 												<!-- Слайд -->
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift1.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift1.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 												</a>
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift2.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift2.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 												</a>
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift3.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift3.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 												</a>
 											</div>
-
 										</div>
 										<div class="item-gift__button">
-											<button type="button" class="gift-12-button-next">
+											<button type="button" class="gift-8-button-next">
 												<span class="_icon-arrowSlider-right slider-arrow"></span>
 											</button>
 										</div>
@@ -929,57 +753,44 @@
 											<span class="porduct-gift__heading">Артикул: 00989</span>
 										</div>
 										<div class="porduct-gift__text">
-											Индивидуальный размер <br>
-											Брендирование под заказчика <br>
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
 											Тираж от 30 штук
 										</div>
-										<div class="porduct-gift__price">
-											от 299 рублей
-										</div>
-										<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+										<div class="porduct-gift__price">от 299 рублей</div>
+										<button data-popup="#popup" type="button" class="porduct-gift__btn">
+											Заказать расчет
 											<span class="_icon-arrow-right"></span>
 										</button>
 									</div>
-
 								</div>
-								<!-- ================================================================================ -->
+								<!-- =================================================-->
 								<div class="gift-product__item item-gift">
-
 									<div class="item-gift__content">
 										<div class="item-gift__button">
-											<button type="button" class="gift-13-button-prev">
+											<button type="button" class="gift-8-button-prev">
 												<span class="_icon-arrowSlider-left slider-arrow"></span>
 											</button>
 										</div>
 
 										<!-- Оболочка слайдера -->
-										<div style="overflow: hidden;" class="item-gift__slider gift-13">
+										<div style="overflow: hidden" class="item-gift__slider gift-8">
 											<!-- Двигающееся часть слайдера -->
 											<div data-gallery class="item-gift__wrapper swiper-wrapper">
 												<!-- Слайд -->
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift1.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift1.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 												</a>
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift2.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift2.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 												</a>
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift3.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift3.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 												</a>
 											</div>
-
 										</div>
 										<div class="item-gift__button">
-											<button type="button" class="gift-13-button-next">
+											<button type="button" class="gift-8-button-next">
 												<span class="_icon-arrowSlider-right slider-arrow"></span>
 											</button>
 										</div>
@@ -991,57 +802,44 @@
 											<span class="porduct-gift__heading">Артикул: 00989</span>
 										</div>
 										<div class="porduct-gift__text">
-											Индивидуальный размер <br>
-											Брендирование под заказчика <br>
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
 											Тираж от 30 штук
 										</div>
-										<div class="porduct-gift__price">
-											от 299 рублей
-										</div>
-										<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+										<div class="porduct-gift__price">от 299 рублей</div>
+										<button data-popup="#popup" type="button" class="porduct-gift__btn">
+											Заказать расчет
 											<span class="_icon-arrow-right"></span>
 										</button>
 									</div>
-
 								</div>
-								<!-- ================================================================================ -->
+								<!-- =================================================-->
 								<div class="gift-product__item item-gift">
-
 									<div class="item-gift__content">
 										<div class="item-gift__button">
-											<button type="button" class="gift-14-button-prev">
+											<button type="button" class="gift-8-button-prev">
 												<span class="_icon-arrowSlider-left slider-arrow"></span>
 											</button>
 										</div>
 
 										<!-- Оболочка слайдера -->
-										<div style="overflow: hidden;" class="item-gift__slider gift-14">
+										<div style="overflow: hidden" class="item-gift__slider gift-8">
 											<!-- Двигающееся часть слайдера -->
 											<div data-gallery class="item-gift__wrapper swiper-wrapper">
 												<!-- Слайд -->
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift1.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift1.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
 												</a>
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift2.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift2.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
 												</a>
 												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
-													<picture>
-														<source srcset="img/gift/gift3.webp" type="image/webp"><img
-															class="item-gift__image" src="img/gift/gift3.jpg" alt="">
-													</picture>
+													<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
 												</a>
 											</div>
-
 										</div>
 										<div class="item-gift__button">
-											<button type="button" class="gift-14-button-next">
+											<button type="button" class="gift-8-button-next">
 												<span class="_icon-arrowSlider-right slider-arrow"></span>
 											</button>
 										</div>
@@ -1053,33 +851,182 @@
 											<span class="porduct-gift__heading">Артикул: 00989</span>
 										</div>
 										<div class="porduct-gift__text">
-											Индивидуальный размер <br>
-											Брендирование под заказчика <br>
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
 											Тираж от 30 штук
 										</div>
-										<div class="porduct-gift__price">
-											от 299 рублей
-										</div>
-										<button data-popup="#popup" type="button" class="porduct-gift__btn">Заказать расчет
+										<div class="porduct-gift__price">от 299 рублей</div>
+										<button data-popup="#popup" type="button" class="porduct-gift__btn">
+											Заказать расчет
 											<span class="_icon-arrow-right"></span>
 										</button>
 									</div>
-
 								</div>
-								<!-- ================================================================================ -->
+								<!-- =================================================-->
+								<div class="gift-product__item item-gift">
+									<div class="item-gift__content">
+										<div class="item-gift__button">
+											<button type="button" class="gift-8-button-prev">
+												<span class="_icon-arrowSlider-left slider-arrow"></span>
+											</button>
+										</div>
+
+										<!-- Оболочка слайдера -->
+										<div style="overflow: hidden" class="item-gift__slider gift-8">
+											<!-- Двигающееся часть слайдера -->
+											<div data-gallery class="item-gift__wrapper swiper-wrapper">
+												<!-- Слайд -->
+												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
+													<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
+												</a>
+												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
+													<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
+												</a>
+												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
+													<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
+												</a>
+											</div>
+										</div>
+										<div class="item-gift__button">
+											<button type="button" class="gift-8-button-next">
+												<span class="_icon-arrowSlider-right slider-arrow"></span>
+											</button>
+										</div>
+									</div>
+
+									<div class="gift-product__content porduct-gift">
+										<div class="porduct-gift__head">
+											<span class="porduct-gift__heading">Подарочная коробка</span>
+											<span class="porduct-gift__heading">Артикул: 00989</span>
+										</div>
+										<div class="porduct-gift__text">
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
+											Тираж от 30 штук
+										</div>
+										<div class="porduct-gift__price">от 299 рублей</div>
+										<button data-popup="#popup" type="button" class="porduct-gift__btn">
+											Заказать расчет
+											<span class="_icon-arrow-right"></span>
+										</button>
+									</div>
+								</div>
+								<!-- =================================================-->
+								<div class="gift-product__item item-gift">
+									<div class="item-gift__content">
+										<div class="item-gift__button">
+											<button type="button" class="gift-8-button-prev">
+												<span class="_icon-arrowSlider-left slider-arrow"></span>
+											</button>
+										</div>
+
+										<!-- Оболочка слайдера -->
+										<div style="overflow: hidden" class="item-gift__slider gift-8">
+											<!-- Двигающееся часть слайдера -->
+											<div data-gallery class="item-gift__wrapper swiper-wrapper">
+												<!-- Слайд -->
+												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
+													<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
+												</a>
+												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
+													<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
+												</a>
+												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
+													<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
+												</a>
+											</div>
+										</div>
+										<div class="item-gift__button">
+											<button type="button" class="gift-8-button-next">
+												<span class="_icon-arrowSlider-right slider-arrow"></span>
+											</button>
+										</div>
+									</div>
+
+									<div class="gift-product__content porduct-gift">
+										<div class="porduct-gift__head">
+											<span class="porduct-gift__heading">Подарочная коробка</span>
+											<span class="porduct-gift__heading">Артикул: 00989</span>
+										</div>
+										<div class="porduct-gift__text">
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
+											Тираж от 30 штук
+										</div>
+										<div class="porduct-gift__price">от 299 рублей</div>
+										<button data-popup="#popup" type="button" class="porduct-gift__btn">
+											Заказать расчет
+											<span class="_icon-arrow-right"></span>
+										</button>
+									</div>
+								</div>
+								<!-- =================================================-->
+								<div class="gift-product__item item-gift">
+									<div class="item-gift__content">
+										<div class="item-gift__button">
+											<button type="button" class="gift-8-button-prev">
+												<span class="_icon-arrowSlider-left slider-arrow"></span>
+											</button>
+										</div>
+
+										<!-- Оболочка слайдера -->
+										<div style="overflow: hidden" class="item-gift__slider gift-8">
+											<!-- Двигающееся часть слайдера -->
+											<div data-gallery class="item-gift__wrapper swiper-wrapper">
+												<!-- Слайд -->
+												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
+													<picture><source srcset="img/gift/gift1.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift1.jpg" alt="" /></picture>
+												</a>
+												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
+													<picture><source srcset="img/gift/gift2.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift2.jpg" alt="" /></picture>
+												</a>
+												<a href="img/gift/fullGift.jpg" class="item-gift__slide swiper-slide">
+													<picture><source srcset="img/gift/gift3.webp" type="image/webp"><img class="item-gift__image" data-src="img/gift/gift3.jpg" alt="" /></picture>
+												</a>
+											</div>
+										</div>
+										<div class="item-gift__button">
+											<button type="button" class="gift-8-button-next">
+												<span class="_icon-arrowSlider-right slider-arrow"></span>
+											</button>
+										</div>
+									</div>
+
+									<div class="gift-product__content porduct-gift">
+										<div class="porduct-gift__head">
+											<span class="porduct-gift__heading">Подарочная коробка</span>
+											<span class="porduct-gift__heading">Артикул: 00989</span>
+										</div>
+										<div class="porduct-gift__text">
+											Индивидуальный размер <br />
+											Брендирование под заказчика <br />
+											Тираж от 30 штук
+										</div>
+										<div class="porduct-gift__price">от 299 рублей</div>
+										<button data-popup="#popup" type="button" class="porduct-gift__btn">
+											Заказать расчет
+											<span class="_icon-arrow-right"></span>
+										</button>
+									</div>
+								</div>
+								<!-- =================================================-->
+								<div class="gift-show__buttton">
+									<button type="button" class="gift-show__btn">Скачать полный каталог</button>
+								</div>
+								<!-- =================================================-->
 							</div>
-							<div class="gift-product__showButton">
-								<button id="arrow" hidden data-showmore-button type="button" class="">
-									<span class="gift__more">Смотреть больше <p class="_icon-arrowSlider-right"></p></span>
-									<span class="gift__more">Скрыть<p class="_icon-arrowSlider-right"></p></span>
-								</button>
-							</div>
+						</div>
+						<!-- =================================================-->
+						<div class="gift-product__showButton">
+							<button hidden id="arrow" data-showmore-button btn type="button" class="gift__more">
+								Смотреть больше
+								<span class="gift__arrow _icon-arrowSlider-right"></span>
+							</button>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<!--  -->
 			<section class="reviews">
 				<div class="reviews__container">
 					<h2 class="reviews__heading">Отзывы</h2>
@@ -1091,125 +1038,69 @@
 							<div data-gallery class="reviews__wrapper swiper-wrapper">
 								<!-- Слайд -->
 								<a href="img/reviews/reviews1.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews1.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews1.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews1.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews1.jpg" alt="" /></picture>
 								</a>
 
 								<a href="img/reviews/reviews2.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews2.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews2.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews2.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews2.jpg" alt="" /></picture>
 								</a>
 
 								<a href="img/reviews/reviews3.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews3.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews3.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews3.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews3.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews4.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews4.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews4.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews4.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews4.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews5.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews5.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews5.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews5.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews5.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews6.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews6.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews6.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews6.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews6.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews7.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews7.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews7.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews7.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews7.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews8.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews8.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews8.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews8.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews8.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews9.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews9.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews9.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews9.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews9.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews10.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews10.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews10.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews10.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews10.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews11.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews11.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews11.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews11.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews11.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews12.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews12.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews12.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews12.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews12.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews13.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews13.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews13.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews13.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews13.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews14.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews14.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews14.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews14.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews14.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews15.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews15.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews15.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews15.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews15.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews16.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews16.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews16.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews16.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews16.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews17.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews17.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews17.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews17.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews17.jpg" alt="" /></picture>
 								</a>
 								<a href="img/reviews/reviews18.jpg" class="reviews__slide swiper-slide">
-									<picture>
-										<source srcset="img/reviews/reviews18.webp" type="image/webp"><img class="reviews__image"
-											src="img/reviews/reviews18.jpg" alt="" />
-									</picture>
+									<picture><source srcset="img/reviews/reviews18.webp" type="image/webp"><img class="reviews__image" src="img/reviews/reviews18.jpg" alt="" /></picture>
 								</a>
 							</div>
 
 							<!-- Если нужна навигация (влево/вправо) -->
 
 							<div class="reviews__btn">
-
 								<button data-popup="#popup" type="button" class="reviews__button">
 									Заказать <span class="_icon-arrow-right"></span>
 								</button>
-
 
 								<div class="reviews__body">
 									<button type="button" class="reviews__errow reviews-button-prev">
@@ -1224,6 +1115,7 @@
 					</div>
 				</div>
 			</section>
+
 			<section class="question">
 				<div class="question__container">
 					<h2 class="question__heading">Вопрос / ответ</h2>
@@ -1282,6 +1174,7 @@
 					</button>
 				</div>
 			</section>
+
 			<section class="form">
 				<div class="form__container">
 					<div class="form__info">
@@ -1290,12 +1183,10 @@
 						<span class="form__text">Вы сможете оценить качество производимой нами продукции
 						</span>
 					</div>
-					<form data-ajax method="POST" action="sendmail.php" class="form__content">
-
+					<form data-ajax data-popup-message="#popup-form" method="POST" action="files/sendmail/sendmail.php" class="form__content">
 						<input class="form__input" type="text" name="" id="" placeholder="Имя" />
 
-						<input id="tel" data-required data-error="Введите пожалуйста номер телефона"
-							class="form__input form-phone" type="tel" placeholder="Телефон" />
+						<input id="tel" data-required data-error="Введите пожалуйста номер телефона" class="form__input form-phone" type="tel" placeholder="Телефон" />
 
 						<input class="form__input" type="email" placeholder="Email" />
 
@@ -1311,39 +1202,44 @@
 					</form>
 				</div>
 			</section>
+
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
-				<div class="footer__logo">
-					<a href="index.html" class="footer__logo"><img src="img/footerLogo.svg" alt="" /></a>
-				</div>
+				<div class="arrow"></div>
+				<div class="footer-content">
+					<div class="footer__logo">
+						<a href="index.html" class="footer__logo"><img src="img/footerLogo.svg" alt="" /></a>
+					</div>
 
-				<div class="footer__content">
-					<div class="footer__social social">
-						<a class="social__number" href="tel:+79191831724">+7 (919) 183-17-24</a>
-						<a href="police.html" class="social__police">Политика конфиденциальности</a>
-					</div>
-					<div class="footer__menu menu-footer">
-						<h5 class="menu-footer__heading">РАЗДЕЛЫ</h5>
-						<div class="menu-footer__list">
-							<a href="gift.html" class="menu-footer__link">Для подарков</a>
-							<a href="products.html" class="menu-footer__link">Для алкоголя</a>
-							<a href="flowers.html" class="menu-footer__link">Для цветов</a>
-							<a href="brend.html" class="menu-footer__link">Брендирование</a>
-							<a href="contact.html" class="menu-footer__link">Контакты</a>
+					<div class="footer__content">
+						<div class="footer__social social">
+							<a class="social__number" href="tel:+79191831724">+7 (919) 183-17-24</a>
+							<a href="police.html" class="social__police">Политика конфиденциальности</a>
 						</div>
-					</div>
-					<div class="footer__location location">
-						<h5 class="location__heading">Мы находимся</h5>
-						<span class="location__adres">Производство: <br />
-							Москва, Варшавское шоссе, 42</span>
-						<span class="location__clock">Режим работы: <br />
-							ежедневно с 08:00 до 22:00</span>
-						<a class="location__email" href="mailto:1@деревянные-коробки.рф">1@деревянные-коробки.рф</a>
+						<div class="footer__menu menu-footer">
+							<h5 class="menu-footer__heading">РАЗДЕЛЫ</h5>
+							<div class="menu-footer__list">
+								<a href="gift.html" class="menu-footer__link">Для подарков</a>
+								<a href="products.html" class="menu-footer__link">Для алкоголя</a>
+								<a href="flowers.html" class="menu-footer__link">Для цветов</a>
+								<a href="brend.html" class="menu-footer__link">Брендирование</a>
+								<a href="contact.html" class="menu-footer__link">Контакты</a>
+							</div>
+						</div>
+						<div class="footer__location location">
+							<h5 class="location__heading">Мы находимся</h5>
+							<span class="location__adres">Производство: <br />
+								Москва, Варшавское шоссе, 42</span>
+							<span class="location__clock">Режим работы: <br />
+								ежедневно с 08:00 до 22:00</span>
+							<a class="location__email" href="mailto:1@деревянные-коробки.рф">1@деревянные-коробки.рф</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
+
 	</div>
 	<div class="vidjet">
 
@@ -1367,24 +1263,18 @@
 		<div class="popup__wrapper">
 			<div class="popup__content">
 				<button data-close type="button" class="popup__close">
-					<picture>
-						<source srcset="img/clouse.webp" type="image/webp"><img class="popup-clouse__image"
-							src="img/clouse.png" alt="" />
-					</picture>
+					<picture><source srcset="img/clouse.webp" type="image/webp"><img class="popup-clouse__image" src="img/clouse.png" alt="" /></picture>
 				</button>
 
 				<div class="popup__heading">Заполните, пожалуйста, форму</div>
 
 				<div class="popup__form form-popup">
-					<form data-ajax method="POST" action="sendmail.php" class="form-popup__content" action="">
+					<form data-ajax data-popup-message="#popup-form" method="POST" action="files/sendmail/sendmail.php" class="form-popup__content">
 						<input class="form-popup_style form-popup__name" type="text" placeholder="Ваше имя" />
-						<input data-required class="form-popup_style form-popup__phone" type="tel" name=""
-							placeholder="Телефон" />
+						<input data-required class="form-popup_style form-popup__phone" type="tel" name="Phone" placeholder="Телефон" />
 						<div class="popup__error">Введите пожалуйста номер телефона</div>
-						<input data-required data-error class="form-popup_style form-popup__email" type="email" name="" id=""
-							placeholder="Email" />
-						<textarea class="form-popup_style form-popup__text" name="" id=""
-							placeholder="Опишите ваш запрос"></textarea>
+						<input data-error class="form-popup_style form-popup__email" type="email" name="Email" id="" placeholder="Email" />
+						<textarea class="form-popup_style form-popup__text" name="Message" placeholder="Опишите ваш запрос"></textarea>
 						<button type="submit" class="form-popup__button">Отправить</button>
 						<div class="police-police">
 							<span class="police-police__text">
@@ -1398,7 +1288,8 @@
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220508153037"></script>
+
+	<script src="js/app.min.js?_v=20220511191617"></script>
 </body>
 
 </html>
