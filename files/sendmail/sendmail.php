@@ -11,7 +11,7 @@
 	$mail->IsHTML(true);
 
 	//От кого письмо
-	$mail->setFrom('Деревянные коробки', 'Новая заявка');
+	$mail->setFrom('sergey@zaickin.ru', 'Деревянные коробки');
 	//Кому отправить
 	$mail->addAddress('sergey@zaickin.ru');
 	//Тема письма
