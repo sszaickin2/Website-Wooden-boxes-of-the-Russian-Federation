@@ -11,18 +11,29 @@
 	$mail->IsHTML(true);
 
 	//От кого письмо
-	$mail->setFrom('sergey@zaickin.ru', 'Деревянные коробки');
+	$mail->setFrom('d.korobki@mail.ru', 'Деревянные коробки');
 	//Кому отправить
-	$mail->addAddress('sergey@zaickin.ru');
+	$mail->addAddress('d.korobki@mail.ru');
 	//Тема письма
-	$mail->Subject = 'Новая заявка с сайта';
+	$mail->Subject = 'Деревянные коробки.рф';
 
 	//Тело письма
-	$body = '<h1>Встречайте супер письмо!</h1>';
+	$body = '<h1>Новая заявка!</h1>';
 
-	//if(trim(!empty($_POST['name']))){
-		//$body.='';
-	//}	
+	if(trim(!empty($_POST['name']))){
+		$body.='<p><strong>Имя:</strong> '.$_POST['name'].'</p>';
+	 }
+	 
+	 if(trim(!empty($_POST['email']))){
+		$body.='<p><strong>E-mail:</strong> '.$_POST['email'].'</p>';
+	 }
+	 if(trim(!empty($_POST['phone']))){
+		$body.='<p><strong>Телефон:</strong> '.$_POST['phone'].'</p>';
+	 }
+	 
+	 if(trim(!empty($_POST['message']))){
+		$body.='<p><strong>Сообщение:</strong> '.$_POST['message'].'</p>';
+	 }
 	
 	/*
 	//Прикрепить файл
