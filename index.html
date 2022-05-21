@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220513151933">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220522001044">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,28 +16,28 @@
 	<div class="wrapper">
 		<header id="header" class="header">
 			<div class="header__container">
-				<div class="header__logo">
-					<a href="http://деревянные-коробки.рф/" class="header__image"><img src="img/logo.svg" alt="" /></a>
-				</div>
+
+				<a href="http://деревянные-коробки.рф/" class="custom-logo-link"><img class="custom-logo" src="img/logo.svg" alt="" /></a>
+
 
 				<div class="header__menu menu">
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
-					<nav class="menu__body">
+					<nav id="menu" class="menu__body">
 						<ul class="menu__list">
 							<li class="menu__item">
-								<a href="gift.html" class="menu__link">Для подарков</a>
+								<a href="gift.html" class="menu-item">Для подарков</a>
 							</li>
 							<li class="menu__item">
-								<a href="alcohole.html" class="menu__link">Для алкоголя</a>
+								<a href="alcohole.html" class="menu-item">Для алкоголя</a>
 							</li>
 							<li class="menu__item">
-								<a href="flowers.html" class="menu__link">Для цветов</a>
+								<a href="flowers.html" class="menu-item">Для цветов</a>
 							</li>
 							<li class="menu__item">
-								<a href="brend.html" class="menu__link">Брендирование</a>
+								<a href="brend.html" class="menu-item">Брендирование</a>
 							</li>
 							<li class="menu__item">
-								<a href="contact.html" class="menu__link">Контакты</a>
+								<a href="contact.html" class="menu-item">Контакты</a>
 							</li>
 						</ul>
 						<a class="menu__phone" href="tel:+79191831724">+7 (919) 183-17-24 </a>
@@ -51,14 +51,10 @@
 				</button>
 			</div>
 		</header>
-
 		<main class="page">
 			<section id="scroll" class="info">
-				<!-- Оболочка слайдера -->
 				<div class="info__slider swiper">
-					<!-- Двигающееся часть слайдера -->
 					<div class="info__wrapper swiper-wrapper">
-						<!-- Слайд -->
 						<div class="info__slide swiper-slide">
 							<picture><source srcset="img/info/slide1.webp" type="image/webp"><img class="info__image" src="img/info/slide1.jpg" alt="" /></picture>
 							<div class="info__container">
@@ -93,7 +89,6 @@
 							</div>
 						</div>
 					</div>
-					<!-- Если нужна пагинация -->
 					<div class="info__container">
 						<div class="pagination">
 							<div class="info__pagination"></div>
@@ -101,7 +96,6 @@
 					</div>
 				</div>
 			</section>
-
 			<section class="content">
 				<div class="content__container">
 					<div data-tabs data-tabs-animate="1000" class="content__tabs tabs">
@@ -110,7 +104,7 @@
 							<div class="tabs__body body">
 								<div class="body__styles">
 									<div class="body__information">
-										<h2 class="information__heading">Наши коробки</h2>
+										<h2 class="information__heading">Подарочные коробки</h2>
 										<h4 class="information__title">
 											Заголовок о товаре/названии товара
 										</h4>
@@ -133,17 +127,14 @@
 									</div>
 
 									<div class="slide">
-										<div class="slide__button">
-											<button type="button" class="slider-errow korusel-button-prev">
+										<div class="slide__button prev">
+											<button type="button" class="slider-errow">
 												<span class="_icon-arrowSlider-left slide__arrow"></span>
 											</button>
 										</div>
 										<div class="body__slider">
-											<!-- Оболочка слайдера -->
-											<div class="korusel__slider slider">
-												<!-- Двигающееся часть слайдера -->
+											<div class="korusel__slider swiper-card">
 												<div data-gallery class="korusel__wrapper swiper-wrapper">
-													<!-- Слайд -->
 													<a href="img/content/slider1.jpg" class="korusel__slide swiper-slide">
 														<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt="" /></picture>
 													</a>
@@ -156,8 +147,8 @@
 												</div>
 											</div>
 										</div>
-										<div class="slide__button">
-											<button type="button" class="slider-errow korusel-button-next">
+										<div class="slide__button next">
+											<button type="button" class="slider-errow">
 												<span class="_icon-arrowSlider-right slide__arrow"></span>
 											</button>
 										</div>
@@ -168,7 +159,7 @@
 							<div class="tabs__body body">
 								<div class="body__styles">
 									<div class="body__information">
-										<h2 class="information__heading">Наши коробки</h2>
+										<h2 class="information__heading">Коробки шкатулки</h2>
 										<h4 class="information__title">
 											Заголовок о товаре/названии товара
 										</h4>
@@ -191,17 +182,14 @@
 									</div>
 
 									<div class="slide">
-										<div class="slide__button">
-											<button type="button" class="slider-errow box-button-prev">
+										<div class="slide__button prev">
+											<button type="button" class="slider-errow">
 												<span class="_icon-arrowSlider-left slide__arrow"></span>
 											</button>
 										</div>
 										<div class="body__slider">
-											<!-- Оболочка слайдера -->
-											<div class="korusel__slider slider-box">
-												<!-- Двигающееся часть слайдера -->
+											<div class="korusel__slider swiper-card">
 												<div data-gallery class="korusel__wrapper swiper-wrapper">
-													<!-- Слайд -->
 													<a href="img/content/slider1.jpg" class="korusel__slide swiper-slide">
 														<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt="" /></picture>
 													</a>
@@ -214,8 +202,8 @@
 												</div>
 											</div>
 										</div>
-										<div class="slide__button">
-											<button type="button" class="slider-errow box-button-next">
+										<div class="slide__button next">
+											<button type="button" class="slider-errow">
 												<span class="_icon-arrowSlider-right slide__arrow"></span>
 											</button>
 										</div>
@@ -226,7 +214,7 @@
 							<div class="tabs__body body">
 								<div class="body__styles">
 									<div class="body__information">
-										<h2 class="information__heading">Наши коробки</h2>
+										<h2 class="information__heading">Коробки для ремней</h2>
 										<h4 class="information__title">
 											Заголовок о товаре/названии товара
 										</h4>
@@ -249,17 +237,14 @@
 									</div>
 
 									<div class="slide">
-										<div class="slide__button">
-											<button type="button" class="slider-errow belts-prev">
+										<div class="slide__button prev">
+											<button type="button" class="slider-errow">
 												<span class="_icon-arrowSlider-left slide__arrow"></span>
 											</button>
 										</div>
 										<div class="body__slider korusel">
-											<!-- Оболочка слайдера -->
-											<div class="korusel__slider belts">
-												<!-- Двигающееся часть слайдера -->
+											<div class="korusel__slider swiper-card">
 												<div data-gallery class="korusel__wrapper swiper-wrapper">
-													<!-- Слайд -->
 													<a href="img/content/slider1.jpg" class="korusel__slide swiper-slide">
 														<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt="" /></picture>
 													</a>
@@ -272,8 +257,8 @@
 												</div>
 											</div>
 										</div>
-										<div class="slide__button">
-											<button type="button" class="slider-errow belts-next">
+										<div class="slide__button next">
+											<button type="button" class="slider-errow">
 												<span class="_icon-arrowSlider-right slide__arrow"></span>
 											</button>
 										</div>
@@ -284,7 +269,7 @@
 							<div class="tabs__body body">
 								<div class="body__styles">
 									<div class="body__information">
-										<h2 class="information__heading">Наши коробки</h2>
+										<h2 class="information__heading">Коробки для бутылок</h2>
 										<h4 class="information__title">
 											Заголовок о товаре/названии товара
 										</h4>
@@ -307,17 +292,14 @@
 									</div>
 
 									<div class="slide">
-										<div class="slide__button">
-											<button type="button" class="slider-errow bottle-prev">
+										<div class="slide__button prev">
+											<button type="button" class="slider-errow">
 												<span class="_icon-arrowSlider-left slide__arrow"></span>
 											</button>
 										</div>
 										<div class="body__slider korusel">
-											<!-- Оболочка слайдера -->
-											<div class="korusel__slider bottle">
-												<!-- Двигающееся часть слайдера -->
+											<div class="korusel__slider swiper-card">
 												<div data-gallery class="korusel__wrapper swiper-wrapper">
-													<!-- Слайд -->
 													<a href="img/content/slider1.jpg" class="korusel__slide swiper-slide">
 														<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt="" /></picture>
 													</a>
@@ -330,8 +312,8 @@
 												</div>
 											</div>
 										</div>
-										<div class="slide__button">
-											<button type="button" class="slider-errow bottle-next">
+										<div class="slide__button next">
+											<button type="button" class="slider-errow">
 												<span class="_icon-arrowSlider-right slide__arrow"></span>
 											</button>
 										</div>
@@ -343,7 +325,7 @@
 							<div class="tabs__body body">
 								<div class="body__styles">
 									<div class="body__information">
-										<h2 class="information__heading">Наши коробки</h2>
+										<h2 class="information__heading">Коробки для цветов</h2>
 										<h4 class="information__title">
 											Заголовок о товаре/названии товара
 										</h4>
@@ -366,17 +348,14 @@
 									</div>
 
 									<div class="slide">
-										<div class="slide__button">
-											<button type="button" class="slider-errow flowers-button-prev">
+										<div class="slide__button prev">
+											<button type="button" class="slider-errow">
 												<span class="_icon-arrowSlider-left slide__arrow"></span>
 											</button>
 										</div>
 										<div class="body__slider korusel">
-											<!-- Оболочка слайдера -->
-											<div class="korusel__slider bottle">
-												<!-- Двигающееся часть слайдера -->
+											<div class="korusel__slider swiper-card">
 												<div data-gallery class="korusel__wrapper swiper-wrapper">
-													<!-- Слайд -->
 													<a href="img/content/slider1.jpg" class="korusel__slide swiper-slide">
 														<picture><source srcset="img/content/slider1.webp" type="image/webp"><img src="img/content/slider1.jpg" alt="" /></picture>
 													</a>
@@ -389,8 +368,8 @@
 												</div>
 											</div>
 										</div>
-										<div class="slide__button">
-											<button type="button" class="slider-errow flowers-button-next">
+										<div class="slide__button next">
+											<button type="button" class="slider-errow">
 												<span class="_icon-arrowSlider-right slide__arrow"></span>
 											</button>
 										</div>
@@ -422,7 +401,7 @@
 					<form data-ajax data-popup-message="#popup-form" method="POST" action="files/sendmail/sendmail.php" class="form__content">
 						<input class="form__input" type="text" name="name" placeholder="Имя" />
 
-						<input id="tel" data-required data-error="Введите пожалуйста номер телефона" class="form__input form-phone" type="tel" placeholder="Телефон" name="phone" />
+						<input data-required data-error="Введите пожалуйста номер телефона" class="form__input form-phone" type="tel" placeholder="Телефон" name="phone" />
 
 						<input class="form__input" type="email" placeholder="Email" name="email" />
 
@@ -438,7 +417,6 @@
 					</form>
 				</div>
 			</section>
-
 			<!-- <section class="stats">
   <div class="stats__container">
     <h2 class="stats__heading">Лучшие маски</h2>
@@ -571,7 +549,6 @@
 					</button>
 				</div>
 			</section>
-
 			<section class="price">
 				<div class="price__container">
 					<h2 class="price__heading">Что включает в себя цена</h2>
@@ -685,7 +662,7 @@
 					<form data-ajax data-popup-message="#popup-form" method="POST" action="files/sendmail/sendmail.php" class="form__content">
 						<input class="form__input" type="text" name="name" placeholder="Имя" />
 
-						<input id="tel" data-required data-error="Введите пожалуйста номер телефона" class="form__input form-phone" type="tel" placeholder="Телефон" name="phone" />
+						<input data-required data-error="Введите пожалуйста номер телефона" class="form__input form-phone" type="tel" placeholder="Телефон" name="phone" />
 
 						<input class="form__input" type="email" placeholder="Email" name="email" />
 
@@ -701,7 +678,6 @@
 					</form>
 				</div>
 			</section>
-
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -747,7 +723,8 @@
 				<a href="mailto:d.korobki@mail.ru"><img class="vidjet__img" src="img/vidjet/email.svg" alt="" /></a>
 			</div>
 			<button class="vidjet-button">
-				<img class="vidjet__image" src="img/vidjet/Frame1.svg" alt="" />
+				<img hidden class="vidjet__image image__vidget" src="img/vidjet/Frame1.svg" alt="" />
+				<img hidden class="vidget-hover vidjet__image clouse__image" src="img/vidjet/exit.svg" alt="" />
 			</button>
 		</div>
 
@@ -755,7 +732,6 @@
 			<a class="test" href="tel:+79191831724"><img class="vidjet__images" src="img/vidjet/Frame.svg" alt="" /></a>
 		</div>
 	</div>
-
 	<div id="popup" aria-hidden="true" class="popup">
 		<div class="popup__wrapper">
 			<div class="popup__content">
@@ -786,7 +762,6 @@
 			</div>
 		</div>
 	</div>
-
 	<div id="popup-form" aria-hidden="true" class="popup-form">
 		<div class="popup-form__wrapper">
 			<div class="popup-form__content">
@@ -794,14 +769,12 @@
 					<picture><source srcset="img/clouse.webp" type="image/webp"><img src="img/clouse.png" alt="" /></picture>
 				</button>
 				<div class="popup-form__text">
-					<picture><source srcset="img/form.webp" type="image/webp"><img class="popup-form__images" src="img/form.png" alt="" /></picture>
 					<div class="popup-form__heading">Письмо отправлено</div>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	<script src="js/app.min.js?_v=20220513151933"></script>
+	<script src="js/app.min.js?_v=20220522001044"></script>
 </body>
 
 </html>

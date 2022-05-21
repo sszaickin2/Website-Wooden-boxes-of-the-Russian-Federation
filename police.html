@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220513151933">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220522001044">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,28 +16,28 @@
 	<div class="wrapper">
 		<header id="header" class="header">
 			<div class="header__container">
-				<div class="header__logo">
-					<a href="http://деревянные-коробки.рф/" class="header__image"><img src="img/logo.svg" alt="" /></a>
-				</div>
+
+				<a href="http://деревянные-коробки.рф/" class="custom-logo-link"><img class="custom-logo" src="img/logo.svg" alt="" /></a>
+
 
 				<div class="header__menu menu">
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
-					<nav class="menu__body">
+					<nav id="menu" class="menu__body">
 						<ul class="menu__list">
 							<li class="menu__item">
-								<a href="gift.html" class="menu__link">Для подарков</a>
+								<a href="gift.html" class="menu-item">Для подарков</a>
 							</li>
 							<li class="menu__item">
-								<a href="alcohole.html" class="menu__link">Для алкоголя</a>
+								<a href="alcohole.html" class="menu-item">Для алкоголя</a>
 							</li>
 							<li class="menu__item">
-								<a href="flowers.html" class="menu__link">Для цветов</a>
+								<a href="flowers.html" class="menu-item">Для цветов</a>
 							</li>
 							<li class="menu__item">
-								<a href="brend.html" class="menu__link">Брендирование</a>
+								<a href="brend.html" class="menu-item">Брендирование</a>
 							</li>
 							<li class="menu__item">
-								<a href="contact.html" class="menu__link">Контакты</a>
+								<a href="contact.html" class="menu-item">Контакты</a>
 							</li>
 						</ul>
 						<a class="menu__phone" href="tel:+79191831724">+7 (919) 183-17-24 </a>
@@ -51,7 +51,6 @@
 				</button>
 			</div>
 		</header>
-
 		<main class="page">
 			<div class="police-text">
 				<div class="police-text__container">
@@ -280,7 +279,8 @@
 				<a href="mailto:d.korobki@mail.ru"><img class="vidjet__img" src="img/vidjet/email.svg" alt="" /></a>
 			</div>
 			<button class="vidjet-button">
-				<img class="vidjet__image" src="img/vidjet/Frame1.svg" alt="" />
+				<img hidden class="vidjet__image image__vidget" src="img/vidjet/Frame1.svg" alt="" />
+				<img hidden class="vidget-hover vidjet__image clouse__image" src="img/vidjet/exit.svg" alt="" />
 			</button>
 		</div>
 
@@ -318,8 +318,7 @@
 			</div>
 		</div>
 	</div>
-
-	<script src="js/app.min.js?_v=20220513151933"></script>
+	<script src="js/app.min.js?_v=20220522001044"></script>
 </body>
 
 </html>
